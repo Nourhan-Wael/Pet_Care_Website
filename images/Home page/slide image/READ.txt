@@ -1,0 +1,11 @@
+for 3 circles : 
+widht & height : 22
+
+color : CF550F "for current silde" 
+color : FF8D4C "for other"
+
+-------------------------
+COLOR -TEXT : CF550F 
+first image-text : WE CARE ABOUT YOUR PET
+second image -text : THE BEST CARE  
+third image -text : LOVE AND CARE FOR YOUR PET

@@ -1,0 +1,13 @@
+unde photo : 
+width : 253  Heiht : 60 
+color : FF8D4C
+bottom left corner radius : 54      
+bottom right corner radius : 54
+
+behind photo :
+border : 3       border-dash = 15
+radius : 54
+color : FF8D4C
+--------------------------
+HOVER :
+ON SHAPE FROM  : FF8D4C T0 CF550F
