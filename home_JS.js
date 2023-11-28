@@ -1,2 +1,2 @@
 // load header
-$('#header').load('pages/header.html');
+$('#header').load('./Header/header.html');
