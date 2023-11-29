@@ -1,0 +1,30 @@
+KEEP YOUR LOVED PETS HEALTHY 
+text-size : 36
+text-color :  5A2828
+-----------------------------------------------
+
+
+ We believe that a healthy Pets is essential
+ for your pet's overall well-being. 
+Explore our selection of high-quality Vets and hospitals 
+to support their optimal health.     
+
+text-size : 16
+color-text : CA8D55
+
+-------------------------------------------
+near Vets in :
+text size : 24
+color-text : 5A2828
+----------------------------
+choisees :
+text-size : 24
+font family : Askar light
+_____________________
+
+ vet name  :
+text-size : 20
+ vet details : 
+text-size : 16
+font family : Askar light
+--------------------------------------

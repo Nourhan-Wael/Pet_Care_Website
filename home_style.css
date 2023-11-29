@@ -6,20 +6,29 @@ body{
 	background-color: #FFEED9;
 }
 article{
-	/* width: 40%; */
-	margin-left: 170px;
+	width: 30%;
+	margin-left: 110px;
 }
 .slideshow{
 	float:right;
+	/* height: 900px; */
 	/* width: 60%; */
 }
 .slideshow img{
-	border: 2px dashed #FF8D4C;
-	width: 400px;
+	/* border: 2px dashed #FF8D4C; */
+	/* width: 480px; */
+	position: absolute;
+	top: 100px;
+	right: 360px;
+
 }
-.slideshow img+img{
-	border: 2px dashed #5A2828;
-	width: 400px;
+.slideshow img[alt="img2"]{
+	/* border: 2px dashed #5A2828; */
+	/* width: 480px; */
+	/* margin-top: 100px; */
+	position: absolute;
+	right: 0px;
+	top:150px;
 }
 .intro article>button{
 	color: white;
@@ -29,13 +38,16 @@ article{
 	border-bottom: 2px dashed #5A2828;
 	padding:10px 15px;
 	border-radius: 20% /60%;
-	margin: 50px 0 30px 50px;
+	margin: 40px 0 30px 50px;
+}
+.intro article>button:hover{
+	background-color: #CF550F;
 }
 .title{
 	font-size : 64px;
 	color :#5A2828;
 	text-transform: uppercase;
-	margin-bottom: 15px;
+	margin-bottom: 0px;
 }
 
 .intro p{
@@ -46,7 +58,7 @@ article{
 .post{
 	font-size : 36px;
 	color :#5A2828;
-	margin: 20px 0 30px 100px;
+	margin: 15px 0 30px 100px;
 }
 .post button{
 	width: 120px;
@@ -59,3 +71,80 @@ article{
 	padding:1px 40px;
 	border-radius: 20% /50%;
 }
+.post button:hover{
+	background-color: #CF550F;
+}
+
+
+/* ALL IN ONE */
+.allInOne{
+	font-size : 36px;
+}
+.word{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+}
+.scrollImages{
+	display: flex;
+	overflow:auto;
+	white-space: nowrap;
+	/* margin-left: 50px; */
+}
+.scrollImages .border{
+	border: 3px dashed #FF8D4C;
+	border-radius: 54px;
+	width : 254px;
+	Height : 254px;
+	transform: rotate(70deg);
+	position: relative;
+	z-index: -1;
+	bottom:60px;
+}
+.scrollImages button{
+	font-size : 30px;
+	color: white;
+	width : 253px;
+	Height : 60px;
+	border: 0;
+	position: relative;
+	top: 200px;
+	left: 1px;
+	border-radius: 0px 0px 54px 54px;
+	background-color : #FF8D4C;
+}
+.scrollImages button:hover{
+	background-color: #CF550F;
+}
+.scrollImages .card{
+	height: 300px;
+	margin: 20px 50px 0px 50px;
+}
+.scrollImages .image{
+	width : 254px;
+	Height : 261px;
+	background-repeat: no-repeat;
+	
+}
+.scrollImages .img1{
+	background-image: url("./images/Home page/all in one/health.svg");
+}
+.scrollImages .img2{
+	background-image: url("./images/Home page/all in one/All needs.svg");
+}
+.scrollImages .img3{
+	background-image: url("./images/Home page/all in one/pet walking.svg");
+}
+.scrollImages .img4{
+	background-image: url("./images/Home page/all in one/pet sitter.svg");
+}
+.scrollImages .img5{
+	background-image: url("./images/Home page/all in one/adopt.svg");
+}
+.scrollImages .img6{
+	background-image: url("./images/Home page/all in one/find my pet.svg");
+}
+
+
+/*  */

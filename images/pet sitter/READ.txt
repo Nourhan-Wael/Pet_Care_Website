@@ -1,0 +1,14 @@
+text-family : Askar  medium
+
+PET SITTING --> text-size : 36       text-color : 5A2828
+YOUR BEST SOLUTION WHILE YOU'RE AWAY --> text-size : 24      text-color : 5A2828
+
+"Reliable, compassionate, and dedicated, our professional pet sitters provide
+ exceptional care and peace of mind to your beloved companions while you're away."
+color : CA8D55
+text-size: 16
+----------------
+for names : 
+text-size : 24
+info - review ... :text-size : 16 
+           FF8D4C        text color :
