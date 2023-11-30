@@ -25,7 +25,7 @@ body{
 	font-weight: 500;
 }
 .no1 p{
-	color:var(--orange);
+	color:var(--light-orange);
 }
 .no2{
 	grid-area: no2;
@@ -49,3 +49,9 @@ body{
 	color: white;
 }
 
+.form h3{
+	font-weight: 450;
+	word-spacing: 9px;
+	letter-spacing: 3px;
+	margin-bottom: 0.9em;
+}
