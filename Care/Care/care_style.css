@@ -116,7 +116,7 @@ input[type=checkbox]:checked
 	box-shadow: none;
 	border: none;
 	appearance: none;
-	background-image: url("");
+	background-image: url("../images/pet sitter/");
 }
 .slider{
 	scroll-behavior:smooth;
