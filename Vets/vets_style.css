@@ -5,29 +5,54 @@
 body{
 	background-color: #FFEED9;
 }
+.textheader{
+	font-size: 36px;
+	color: #5A2828;
+	position: relative; 
+
+	margin-left: 25%;
+	/* text-align: center; */
+	margin-top: 2%;
+	margin-bottom: -3%;
+	
+}
 .text1{
 	font-size: 36px;
+	color: #5A2828;
 	position: relative; 
 	margin-left: 15%;
 	/* text-align: center; */
 	margin-top: 2%;
 }
-
-.brief{
+ .brief{
 	color: #CA8D55;
-	margin-left: 15%;
+ }
+
+.brief1{
 	
+	margin-left:18%;
+	
+}
+.brief2{
+	
+	margin-left:20%;
+}
+.breif3{
+	margin-left:15%;
+}
+.brief4{
+	margin-left:20%;
 }
 
 .near{
-	font-size: 24px;
-	color: #5A2828 ;             
-     	margin-left: 15%;
+
+    margin-left: 16%;
 	 
 }
 .box{
 	display: flex; 
 	padding-top:1%;
+	color: #5A2828 ; 
 }
 
 
@@ -146,45 +171,36 @@ body{
 }
 .name{
 	font-size: 24px;
+	color: #5A2828 ; 
 	
 }
 .lorem{
-	 /* /* margin-top: 2%;
-	margin-bottom: 7%;  */
-	/* margin-left: 3%;  */
-	  /* position: relative; 
-	 right:112px;
-	bottom:5%;  */
+
 	padding: 2% 0px 0% 1%;
 	margin-left: -10%;
+	color: #5A2828 ; 
 
 } 
   
 
 
 .bubble{
-      position: absolute;
+    position: absolute;
 	bottom:50px; 
 	right : 50px;
 	z-index: -1;
-	/* width: 60%; */
+
 	 
 }
 .slide-image{
 	position: relative; 
-	/* left:800px; */
-	/* bottom:7px; */
-	/* width: 500px; */
-	/* margin-left: 0%;
-	margin-right: 0; */
+
 }
 .image1{
 	position: absolute;
 	bottom:30px; 
 	right : 20px;
-	/* width: 600px; */
-	/* width: 90%; */
-	/* height: 600px; */
+
 }
 
 .button{
@@ -197,9 +213,34 @@ body{
 	font-size: 24px;
 	color:white;
 	position: relative;
-	left:25%;
+	left:20%;
 }
 
 .button:hover{
 	background-color: #CF550F;
+}
+.bone{
+	position: absolute;
+	left:10%;
+	top:22%;
+}
+.pethand{
+	position: absolute;
+	left:5%;
+	top:45%;
+}
+.pethand2{
+	position: absolute;
+	left:42%;
+	top:30%;
+}
+.bone2{
+	position: absolute;
+	left:90%;
+	top:15%;
+}
+.shapes-collection{
+	position: absolute;
+	left:5%;
+	top:100%;
 }
