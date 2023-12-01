@@ -294,3 +294,97 @@ article{
 	width: 70px;
 
 }
+
+.shapes-animation {
+	position: absolute;
+	left: 2%;
+	top: 17%;
+
+  }
+  .shapes-animation2 {
+	position: absolute;
+	left: 72%;
+	top: 25%;
+
+  }
+  
+  
+  .photo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 1s;
+  }
+  
+  .photo.active {
+	opacity: 1;
+  }
+
+
+  
+  .photo2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 1s;
+  }
+  
+  .photo2.active {
+	opacity: 1;
+  }
+
+  .shapes-animation3 {
+	position: absolute;
+	left: 85%;
+	top: 3%;
+
+  }
+  
+  
+  .photo3 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 1s;
+  }
+  
+  .photo3.active {
+	opacity: 1;
+  }
+
+  .shapes-collection{
+	position: absolute;
+	left:5%;
+	top:80%;
+}
+
+.bone{
+	position: absolute;
+	left:60%;
+	top:90%;
+}
+
+.pethand{
+	position: absolute;
+	left:40%;
+	top:22%;
+}
+
+.pet-hand3{
+	position: absolute;
+	left:5%;
+	top:175%;
+}
+.bone2{
+	position: absolute;
+	left:90%;
+	top:180%;
+}
+.shapes-collection2{
+	position: absolute;
+	left:5%;
+	top:30%;
+}

@@ -10,6 +10,34 @@
 body{
 	background-color: #FFEED9;
 }
+
+.shapes-animation {
+	position: absolute;
+	left: 5%;
+	top: 15%;
+
+  }
+  
+  
+  .photo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 1s;
+  }
+  
+  .photo.active {
+	opacity: 1;
+  }
+
+
+.pethand{
+	position: absolute;
+	left:1%;
+	top:90%;
+}
+
 .container{
 
     display: flex;
