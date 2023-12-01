@@ -17,41 +17,68 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 		<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500&display=swap" rel="stylesheet">
+		<!-- icon -->
+		<link rel="icon" href="../images/icon.svg">
 </head>
 	
 <body>
 	<div id="header"></div>
+
 	<div class="container">
+		<div class="dog">
+			<img src="../images/log in page/bubble img 1.svg" alt="buuble">
+			<img src="../images/log in page/img1.svg" alt="dog">	
+		</div>
+
 		<div class="login">
 			<form>
+				<div class="bones">
+					<img src="../images/shapes/bone.svg" alt="bone1" >
+					<img src="../images/shapes/bone 2.svg" alt="bone2">
+				</div>
+				
 				<p id="plogin">Login</p>
-				<p id="p1">to keep touch with All pets</p>
+				<p id="p1">To keep touch with All pets</p>
 			
 				<label for="email">Email</label><br>
 				<input type="email" id="email" placeholder="Enter your Email"><br>
 				
 				<label for="pass">Password</label><br>
-				<input type="password" id="pass" placeholder="Enter your Pasword"><br>
+				<input type="password" id="pass" placeholder="Enter your Password"><br>
 				
-				<input type="checkbox" id="ch">
+				<label class="choises" for="signIn"> Keep me signed in 
+					<input type="checkbox" id="signIn" name="signIn" value="signIn" checked="checked">
+					
+						<span class="checkmark"></span>
+				</label>
+				<!-- <input type="checkbox" class="ch">
 				<label for="ch">Keep me signed in </label>
-			 
+			  -->
 				<a href="#" class="forgetPass">Forget Password?</a><br>
 				
 				<button>Login</button><br>
 				
-				<span>Or Log In With</span>
+				<div class="word">
+					<img src="../images/log in page/LINE.svg" alt="line">
+					OR Login With
+				</div>
 				
 				<div class="social-icons">
 					<a href="#" class="icon"><i class="fa-brands fa-google" style="color: #cf550f;"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-facebook" style="color: #cf550f;"></i></a>
 				</div>
 			</form>
-
+			<div class="signUp">
+				<span>Don't Have Any Account ?</span>
+				<a href="../Sign up 1/signup1.html">Sign Up</a>
+			</div>
+			
 		</div>
+		
 	</div>
 
 
+	<div id="footer"></div>
 	<script src="login_JS.js"></script>
 </body>
 </html>
