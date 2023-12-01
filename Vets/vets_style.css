@@ -1,45 +1,29 @@
 body{
 	background-color: #FFEED9;
 }
-.keep{
+.text1{
 	font-size: 36px;
 	position: relative; 
-	padding-left: 300px;
+	margin-left: 15%;
+	/* text-align: center; */
+	margin-top: 2%;
+}
 
-}
-.main{
-	font-size: 36px;
-	padding-right: 136px;
-	margin-top: -34px;
-	margin-left:150px;
-
-}
-.brief p{
-	color: #CA8D55;
-	padding:  0 0 0 148px;
-	margin: 0 0 0 0;
-}
 .brief{
-	position: relative;
-	 bottom: 20px;
-	 margin: -12px 0 -22px 95px;
+	color: #CA8D55;
+	margin-left: 15%;
+	
+}
 
-}
-.brief .we{
-	position: relative;
-	right: 45px;
-}
-.brief .Explore{
-	position: relative;
-	right:85px;
-}
 .near{
 	font-size: 24px;
 	color: #5A2828 ;             
-     padding-left: 180px;
+     padding-left: 15%;
+	 
 }
 .box{
 	display: flex; 
+	padding-top:1%;
 }
 
 
@@ -53,20 +37,19 @@ body{
 .location{
 	display: flex;
 	justify-content: space-between;
-	padding-left: 50px;
+	padding-left: 5%;
 	
 }
 .addresstext{
 	font-size: 24px;
 	color:  #CF550F;
-	padding-top: 20px;
+	padding-top: 2%;
 
 }
 
 .container{
 	display: flex;
-	padding-left:170px ;
-
+	padding: 1% 0 1% 15%;
 }
 
 
@@ -75,9 +58,8 @@ body{
 .choises {
 	display: block;
 	position: relative;
-	padding-left: 50px;
-	padding-right: 50px;
-	margin-bottom: 12px;
+	padding-left: 3%;
+	padding-right: 3%;
 	cursor: pointer;
 	font-size: 22px;
 	-webkit-user-select: none;
@@ -146,28 +128,32 @@ body{
 .vets{
 	display: flex;
 	flex-direction: column;
-	padding-left: 170px;
-	padding-top: 15px;
-	
+	padding-left: 15%;
 }
 .vet{
-	width: 35px;
-
-	padding: 10px;
+	width: 3%;
+	padding: 1%;
 }
 .v{
 	display: flex;
 	
-	padding-bottom: 20px;
+	margin-bottom: 1.5%;
 	
 }
 .name{
 	font-size: 24px;
+	
 }
 .lorem{
-	 position: relative;
-	top:15px;
-	right:112px;
+	 /* /* margin-top: 2%;
+	margin-bottom: 7%;  */
+	/* margin-left: 3%;  */
+	  /* position: relative; 
+	 right:112px;
+	bottom:5%;  */
+	padding: 2% 0px 0% 1%;
+	margin-left: -10%;
+
 } 
   
 
@@ -203,7 +189,7 @@ body{
 	font-size: 24px;
 	color:white;
 	position: relative;
-	left:95px;
+	left:25%;
 }
 
 .button:hover{
