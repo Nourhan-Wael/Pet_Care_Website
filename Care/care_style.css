@@ -55,3 +55,52 @@ body{
 	letter-spacing: 3px;
 	margin-bottom: 0.9em;
 }
+
+.arrow{
+	appearance: none;
+	background: url("../images/pet sitter/");
+	background-repeat: no-repeat;
+	background-size:16px 17px;
+	background-position:right 0px;
+	color: white;
+}
+.same-style{
+	background-color: var(--light-orange);
+	padding: 0.5rem 0.9rem;
+	border-radius: 30px;
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	-ms-border-radius:30px;
+	-o-border-radius:30px;
+	border-right: 2px dashed var(--brown);
+}
+.row p{
+	display: flex;
+	justify-content: flex-start;
+	margin: 0 0 0.1rem 1rem;
+}
+.rate{
+	margin-left:3rem;
+}
+.inner-rate{
+	display: flex;
+	align-items: center;
+}
+.form-check{
+	margin: 0 3rem 0 1rem;
+}
+.form-check-label{
+	margin: 0 0 0 0.6rem;
+	font-size: 1.21rem;
+	font-weight: 350;
+}
+input[type=checkbox] ,
+input[type=checkbox]:focus ,
+input[type=checkbox]:checked
+{
+	background-color: #ca8e5566;
+	box-shadow: none;
+	border: none;
+	appearance: none;
+	background-image: url("");
+}
