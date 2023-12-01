@@ -76,6 +76,7 @@ article{
 
 /* ALL IN ONE */
 .allInOne{
+	color: #5A2828;
 	font-size : 36px;
 	position: relative;
 }
@@ -182,6 +183,7 @@ article{
 /* our Services section */
 
 .ourServices{
+	color: #5A2828;
 	font-size : 36px;
 	position: relative;
 	margin-bottom: 0px;
@@ -229,6 +231,7 @@ article{
 /* ABOUT US */
 
 .aboutus{
+	color: #5A2828;
 	font-size : 36px;
 	position: relative;
 	margin-bottom: 50px;
@@ -266,6 +269,7 @@ article{
 }
 
 .feedback{
+	color: #5A2828;
 	font-size : 36px;
 	margin-bottom: 100px;
 }
