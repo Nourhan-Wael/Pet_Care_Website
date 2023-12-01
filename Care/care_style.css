@@ -1,3 +1,183 @@
 body{
 	background-color: #FFEED9;
 }
+:root{
+	--dark-orange:#CA8D55;
+	--brown:#5A2828;
+	--light-orange:#FF8D4C;
+}
+.first-section{
+	display: grid;
+	grid-template-areas: 'no1 no1 no1 no2 no2';
+	grid-template-columns: repeat(4 , 14em);
+	justify-content: center;
+	margin: 3em;
+}
+.no1{
+	grid-area: no1;
+}
+.pet-setting{
+	padding : 0 2rem 0 0;
+	
+}
+.no1 h1 , h3{
+	margin: 0;
+	font-weight: 500;
+	color:var(--brown);
+}
+.no1 p{
+	color:var(--light-orange);
+}
+.no2{
+	grid-area: no2;
+}
+.no2 a {
+	display:inline-block;
+	text-decoration: none;
+	background-color: var(--light-orange);
+	font-size: 1.1rem;
+	align-items: center;
+	justify-content: center;
+	padding:  0.2em 2em;
+	margin: 1.5em 0 0 0;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	overflow: hidden;
+	border-bottom: 2px dashed var(--brown);
+	color: white;
+}
+
+.form h3{
+	font-weight: 450;
+	word-spacing: 9px;
+	letter-spacing: 3px;
+	margin-bottom: 0.9em;
+}
+
+.arrow{
+	appearance: none;
+	background: url("../images/pet sitter/Polygon.svg");
+	background-repeat: no-repeat;
+	background-size:16px 17px;
+	background-position: center right  15px;
+	color: white;
+}
+.arrow:focus{
+	box-shadow: none;
+	border-right:  2px dashed var(--brown) ;
+	border-top:none;
+	border-bottom: none;
+	border-left:none;
+}
+select option:checked{
+	background-color: #ff670e;
+}
+/* select option:active{
+	background-color:  #ff8a46 !important;
+}  */
+.same-style{
+	background-color: var(--light-orange);
+	padding: 0.5rem 0.9rem;
+	border-radius: 30px;
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	-ms-border-radius:30px;
+	-o-border-radius:30px;
+	border-right: 2px dashed var(--brown);
+}
+.row p{
+	display: flex;
+	justify-content: flex-start;
+	margin: 0 0 0.1rem 1rem;
+}
+.rate{
+	margin-left:3rem;
+}
+.inner-rate{
+	display: flex;
+	align-items: center;
+}
+.form-check{
+	margin: 0 3rem 0 1rem;
+}
+.form-check-label{
+	margin: 0 0 0 0.6rem;
+	font-size: 1.21rem;
+	font-weight: 350;
+}
+input[type=checkbox] ,
+input[type=checkbox]:focus ,
+input[type=checkbox]:checked
+{
+	background-color: #ca8e5566;
+	box-shadow: none;
+	border: none;
+	appearance: none;
+	background-image: url("../images/pet sitter/");
+}
+.slider{
+	scroll-behavior:smooth;
+}
+div.photo{
+	position: relative; 
+	width:200px;
+}
+.cont-style{
+	margin: 1.5rem 1.5rem 3rem 1.5rem;
+}
+
+.photo img{
+	display:block;
+}
+
+.john::after{
+	content: "john";
+}
+.ali::after{
+	content: "ali";
+}
+.mohammed::after{
+	content: "mohammed";
+}
+.ahmed::after{
+	content: "ahmed";
+}
+.kaila::after{
+	content: "kaila";
+}
+.reda::after{
+	content: "reda";
+}
+.ashraf::after{
+	content: "ashraf";
+}
+.laila::after{
+	content: "laila";
+}
+.rama::after{
+	content:"rama"
+}
+.dina::after{
+	content:"dina"
+}
+.fatima::after{
+	content:"fatima"
+}
+.photo::after {
+	text-align: center;
+	color:white;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 25%;
+	background-color: var(--light-orange);
+	bottom: 0;
+	border-radius: 0 0 50px 50px;
+	-webkit-border-radius: 0 0 50px 50px;
+	-moz-border-radius: 0 0 50px 50px;
+	-ms-border-radius: 0 0 50px 50px;
+	-o-border-radius: 0 0 50px 50px;
+}
