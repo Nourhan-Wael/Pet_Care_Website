@@ -27,3 +27,8 @@ function sideScroll(element,direction,speed,distance,step){
         }
     }, speed);
 }
+
+const checked = document.querySelector(".check-arrow");
+checked.onclick =function(){
+    check.style.setProperty("background-image" , "../images/pet sitter/arrow.svg");
+};

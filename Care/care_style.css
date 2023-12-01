@@ -94,7 +94,7 @@ select option:checked{
 	margin: 0 0 0.1rem 1rem;
 }
 .rate{
-	margin-left:3rem;
+	margin-left:3.7rem;
 }
 .inner-rate{
 	display: flex;
@@ -116,8 +116,9 @@ input[type=checkbox]:checked
 	box-shadow: none;
 	border: none;
 	appearance: none;
-	background-image: url("../images/pet sitter/");
+	/* background-image: url("../images/pet sitter/arrow.svg"); */
 }
+
 .slider{
 	scroll-behavior:smooth;
 }
@@ -126,7 +127,7 @@ div.photo{
 	width:200px;
 }
 .cont-style{
-	margin: 1.5rem 1.5rem 3rem 1.5rem;
+	margin: 1.5rem 2rem 0;
 }
 
 .photo img{
