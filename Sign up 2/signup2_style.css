@@ -1,3 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Akshar', sans-serif;
+} */
+
 body{
 	background-color: #FFEED9;
 }
+
+.content{
+    font-family:'Akshar', sans-serif;
+    font-size: 48px;
+    width: auto;
+padding-left: 8em;
+margin-top: -1em;
+color: #5A2828;
+
+
+}
+.par{
+    padding-left: 14em;
+    font-size: 24px;
+   margin-top: -2em;
+   color: #CA8D55;
+}
+.form{
+    position: relative;
+    font-size: 1.3em;
+    padding-left: 6em;
+    margin-top: 5em;
+    width: auto;
+
+}
+
+/* .login{
+    display: inline;
+} */
+.form1{
+
+    display:flex;
+    margin: 9px 0 9px 0;
+}
+   
+.u{
+    border-radius: 50em;
+   
+    padding: 0 0.5em 0 0.5em;
+    border: 0.2em solid rgba(255,255,255, 0.015);
+    background: #FF8D4Ca0 ;
+    height: 36px;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.085),
+                0 2px 30px 0 rgba(0,0,0,0.2);
+    font-size: 1em;
+    color: #5A2828;
+    width: 28em;
+    text-align: center;
+
+
+}
+
+.v{
+    border-radius: 50em;
+   
+    padding: 0 0.5em 0 0.5em;
+    border: 0.2em solid rgba(255,255,255, 0.015);
+    background: #FF8D4Ca0 ;
+    height: 38px;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.085),
+                0 2px 30px 0 rgba(0,0,0,0.2);
+    font-size: 1em;
+    color: #5A2828;
+    border-bottom: #000 dashed;
+    margin-left: 4em;
+    width: 6.5em;
+}
+.sign_up{
+    margin-top: 2.1em ;
+    margin-left: 9em;
+}
+
+.img1 img{
+    float: right;
+    margin-top: -25em;
+}
+.img2 img{
+    float: right;
+    margin-top: -27em;
+    margin-right: -34em;
+}
+
+.img3{
+    margin: 0 auto;
+    position: absolute;
+}
+.img3 img{ vertical-align: middle;
+    float: left;
+    margin-top: -24em;
+    margin-left: 22em;
+    
+}
+.img3 .num{
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0);
+    width: 100%;
+    padding: 19.5em;
+    margin-left:4.5em;
+}
+.img3 .num2{
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0);
+
+    width: 100%;
+    padding: 18.5em;
+    margin-left: 8.2em;
+}
+
+.img img{
+width: 100%;
+float: bottom;
+
+
+}
+
+
+
+/* .input-field{
+    display: flex;
+
+
+}
+input{
+    outline: none;
+}
+input:focus,input:valid{
+    border: 2px solid rgba(255,255,255,0.65);
+    background: transparent;
+    box-shadow: none;
+    border-radius: 30px;
+} */
