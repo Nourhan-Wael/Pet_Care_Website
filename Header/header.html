@@ -1,10 +1,23 @@
 <header>
 	<img src="../images/Home page/logo.svg" alt="logo">
 	<nav>
-		<a href="../index.html">Home</a>
-		<a href="../Adopt/adopt.html">Adopt</a>
-		<a href="../Care/care.html">Care</a>
-		<a href="../Vets/vets.html">Vets</a>
+		<div>
+			<a href="../index.html">Home</a>
+			<img class="hide" src="../images/line header.svg">
+		</div>
+		<div>
+			<a href="../Adopt/adopt.html">Adopt</a>
+			<img class="hide" src="../images/line header.svg">
+		</div>
+		<div>
+			<a href="../Care/care.html">Care</a>
+			<img class="hide" src="../images/line header.svg">
+		</div>
+		<div>
+			<a href="../Vets/vets.html">Vets</a>
+			<img class="hide" src="../images/line header.svg">
+		</div>
+		
 	</nav>
 	<div class="register">
 		<a href="../Login/login.html"><button>Login</button></a>
@@ -23,6 +36,10 @@
 		display: flex;
 		justify-content: space-between;
 		margin-top: 30px;
+		height: 50px;
+	}
+	header>img{
+		margin-left: 50px;
 	}
 	header nav{
 		width: 30%;
@@ -30,8 +47,13 @@
 		justify-content: space-between;
 		margin-top: 10px;
 	}
-	header img{
-		margin-left: 50px;
+	header nav div{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	header nav .hide{
+		display: none;
 	}
 	header a{
 		letter-spacing: 1px;
@@ -60,6 +82,9 @@
 	header nav a:hover{
 		color: #FF8D4C;
 		text-decoration: none;
+	}
+	header nav a:hover + .hide{
+		display: block;
 	}
 
 	header .register button:hover{

@@ -282,13 +282,15 @@ article{
 .feedback .image{
 	display: flex;
 	justify-content: center;
+	height: 65px;
 }
 .feedback .image img{
 	margin-right: 50px;
 	margin-left: 50px;
+	width: 55px;
 }
 
 .feedback .image img:hover{
-	width: 65px;
+	width: 70px;
 
 }
