@@ -248,15 +248,21 @@ article{
 	width: 56.5%;
 	margin-left: 20%;
 }
-
+/* .aboutus .image{
+	margin-top: 20%;
+} */
 .aboutus .image img{
 	position: absolute;
-	top: 250px;
-	left: 200px;
+	/* top: 250px; */
+	bottom: -21%;
+	/* left: 200px; */
+	left: 15%;
+	width: 74%;
 }
 .aboutus .image .hr{
 	border-bottom: 2px dashed #5A2828;
-	margin-top: 230px;
+	/* margin-top: 230px; */
+	margin-top: 16%;
 }
 
 .feedback{
