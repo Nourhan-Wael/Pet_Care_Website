@@ -186,22 +186,33 @@ body{
 
 .bubble{
     position: absolute;
-	bottom:50px; 
-	right : 50px;
+	bottom: -10%; 
+	right : 7%;
 	z-index: -1;
 
 	 
 }
-.slide-image{
-	position: relative; 
-
-}
-.image1{
+.slideshow {
 	position: absolute;
-	bottom:30px; 
-	right : 20px;
+	width: 630px;
+	height: 630px; 
+	overflow: hidden;
+	left:52%;
+	top :15%;
+  }
+  
+  .slideshow img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 1s;
+  }
+  
+  .slideshow img.active {
+   opacity: 1;
+  }
 
-}
 
 .button{
 	background-color: #FF8D4C;
@@ -244,3 +255,4 @@ body{
 	left:5%;
 	top:100%;
 }
+
