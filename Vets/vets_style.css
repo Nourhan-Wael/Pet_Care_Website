@@ -1,3 +1,7 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 body{
 	background-color: #FFEED9;
 }
@@ -18,7 +22,7 @@ body{
 .near{
 	font-size: 24px;
 	color: #5A2828 ;             
-     padding-left: 15%;
+     	margin-left: 15%;
 	 
 }
 .box{
@@ -160,23 +164,27 @@ body{
 
 .bubble{
       position: absolute;
-	  top:0px; 
-	  left : -18px;
-	  z-index: -1;
-	
+	bottom:50px; 
+	right : 50px;
+	z-index: -1;
+	/* width: 60%; */
 	 
 }
 .slide-image{
-	position: absolute; 
-	left:800px;
-	 bottom:7px;
-	 width: 500px;
-	 margin-left: 0%;
-	 margin-right: 0;
+	position: relative; 
+	/* left:800px; */
+	/* bottom:7px; */
+	/* width: 500px; */
+	/* margin-left: 0%;
+	margin-right: 0; */
 }
 .image1{
-	width: 600px;
-	height: 600px;
+	position: absolute;
+	bottom:30px; 
+	right : 20px;
+	/* width: 600px; */
+	/* width: 90%; */
+	/* height: 600px; */
 }
 
 .button{
@@ -195,4 +203,3 @@ body{
 .button:hover{
 	background-color: #CF550F;
 }
-

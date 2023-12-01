@@ -16,8 +16,11 @@ article{
 }
 .slideshow img{
 	position: absolute;
-	top: 100px;
-	right: 360px;
+	/* top: 100px;
+	right: 360px; */
+	top: 16%;
+	right: 26%;
+	width: 37%;
 
 }
 .slideshow img[alt="img2"]{

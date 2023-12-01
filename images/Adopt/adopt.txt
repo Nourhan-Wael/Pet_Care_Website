@@ -1,0 +1,42 @@
+ADOPT 
+GIVE THEM HOME
+ text-size : 36px
+ text-color :5A2828
+-------------
+
+ Lorem ipsum dolor sit amet consectetur.
+ Dui varius aliquet odio vel nibh cursus.
+ Dolor et donec quisque fermentum .
+
+ text-size: 16px
+ text-color :CA8D55
+-------------------
+
+select gender- pet - location -->
+text-size :20
+text-color :5A2828
+
+
+select box :
+color : CF550F   75%
+
+
+------------------------------
+boxes of pets : 
+
+
+color  of box " name " ::FF8D4C
+text-size : 24
+text-size underbox : 20
+--------------
+
+buton of adopt :
+color : CA8D55
+text-size : 16
+
+
+next button 
+color : CA8D55
+--------------------
+prev button 
+color : A76D37
