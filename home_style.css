@@ -38,7 +38,7 @@ article{
 .intro article>button:hover{
 	background-color: #CF550F;
 }
-.title{
+.intro article .title{
 	font-size : 64px;
 	color :#5A2828;
 	text-transform: uppercase;
