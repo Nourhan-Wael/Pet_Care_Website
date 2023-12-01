@@ -181,3 +181,17 @@ div.photo{
 	-ms-border-radius: 0 0 50px 50px;
 	-o-border-radius: 0 0 50px 50px;
 }
+
+.scoll-pane {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    outline: none;
+    overflow-y: hidden;
+    padding-bottom: 15px;
+    -ms-overflow-style: scroll;  /*IE 10*/
+    scrollbar-width: none;  /*Firefox*/
+}
+.scoll-pane::-webkit-scrollbar { 
+	display: none;  /*Safari and Chrome*/
+	}
