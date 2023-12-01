@@ -255,3 +255,27 @@ article{
 	border-bottom: 2px dashed #5A2828;
 	margin-top: 230px;
 }
+
+.feedback{
+	font-size : 36px;
+	margin-bottom: 100px;
+}
+.feedback .word p{
+	color: #CA8D55;
+	font-size : 24px;
+	margin-top:15px;
+}
+
+.feedback .image{
+	display: flex;
+	justify-content: center;
+}
+.feedback .image img{
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.feedback .image img:hover{
+	width: 65px;
+
+}
