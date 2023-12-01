@@ -3,16 +3,15 @@ body{
 }
 .keep{
 	font-size: 36px;
-	/* position: absolute; */
-	text-align:left;
-	padding-left: 330px;
+	position: relative; 
+	padding-left: 300px;
 
 }
 .main{
 	font-size: 36px;
-	padding-right: 100px;
+	padding-right: 136px;
 	margin-top: -34px;
-	margin-left:180px;
+	margin-left:150px;
 
 }
 .brief p{
@@ -22,8 +21,9 @@ body{
 }
 .brief{
 	position: relative;
-	bottom: 30px;
-	left:122px;
+	 bottom: 20px;
+	 margin: -12px 0 -22px 95px;
+
 }
 .brief .we{
 	position: relative;
@@ -36,43 +36,37 @@ body{
 .near{
 	font-size: 24px;
 	color: #5A2828 ;             
-	position:absolute;
-	bottom:10px;
-	right: 70px;
+     padding-left: 180px;
 }
 .box{
-	display: flex;
-	position:relative;
-	bottom:20px;
-	left: 190px;
+	display: flex; 
 }
 
 
 .address{
 	color:  #CA8D55 ;
 	font-size: 30px;
-	position: relative;
-	bottom:40px;
 }
 .boxes{
 	display: flex;
 }
 .location{
-	position: relative;
-	left:30px;
-	top:20px;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 50px;
 	
 }
 .addresstext{
 	font-size: 24px;
 	color:  #CF550F;
+	padding-top: 20px;
+
 }
 
 .container{
 	display: flex;
-	position: relative;
-	left: 180px;
-	bottom:20px;
+	padding-left:170px ;
+
 }
 
 
@@ -152,13 +146,13 @@ body{
 .vets{
 	display: flex;
 	flex-direction: column;
-	position: relative;
-    left:165px;
-	bottom:20px;
+	padding-left: 170px;
+	padding-top: 15px;
+	
 }
 .vet{
 	width: 35px;
-	/* height: 30px; */
+
 	padding: 10px;
 }
 .v{
@@ -171,27 +165,32 @@ body{
 	font-size: 24px;
 }
 .lorem{
-	position: relative;
+	 position: relative;
 	top:15px;
 	right:112px;
-}
+} 
   
 
 
 .bubble{
       position: absolute;
-	  top:30px;
-	  left: -50px;
+	  top:0px; 
+	  left : -18px;
 	  z-index: -1;
+	
 	 
-
 }
 .slide-image{
-	position: absolute;
-	left:600px;
-	bottom:50px;
-
-	 bottom:100px;
+	position: absolute; 
+	left:800px;
+	 bottom:7px;
+	 width: 500px;
+	 margin-left: 0%;
+	 margin-right: 0;
+}
+.image1{
+	width: 600px;
+	height: 600px;
 }
 
 .button{
@@ -204,12 +203,10 @@ body{
 	font-size: 24px;
 	color:white;
 	position: relative;
-	left:80px;
+	left:95px;
 }
-/* 
 
- .wave{
-	position: relative;
-	right :140px;
-	/* width: 1560px; */
- } */
+.button:hover{
+	background-color: #CF550F;
+}
+
