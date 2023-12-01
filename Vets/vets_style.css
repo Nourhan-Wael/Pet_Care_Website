@@ -256,3 +256,20 @@ body{
 	top:100%;
 }
 
+.shapes-animation {
+	position: absolute;
+	left: 10%;
+
+  }
+  
+  .photo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 1s;
+  }
+  
+  .photo.active {
+	opacity: 1;
+  }
