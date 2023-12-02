@@ -254,7 +254,7 @@ input:focus,input:valid{
   
     float: left;
     margin-top: -25em;
-    margin-left:11em;
+    margin-left:10em;
     
     
     
@@ -270,7 +270,7 @@ input:focus,input:valid{
     background: rgba(0,0,0,0);
 
  
-    margin-left: 16em;
+    margin-left: 15em;
     margin-top: -21.5em;
     
 
@@ -278,13 +278,13 @@ input:focus,input:valid{
 .img3 .num1{
     background: rgba(0,0,0,0);
     position: absolute;
-    margin-left: 13em ;
+    margin-left: 12em ;
     margin-top: -22.8em ;
 }
 .img3 .num2{
     background: rgba(0,0,0,0);
     position: absolute;
-    margin-left: 22.2em ;
+    margin-left: 21.2em ;
     margin-top: -22.8em ;
 } 
 .llink{
