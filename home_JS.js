@@ -15,7 +15,7 @@ setInterval(function(){
 	if(i>6){
 		i=1;
 	}
-},1000);
+},2000);
 
 //second slideshow
 
@@ -26,7 +26,7 @@ setInterval(function(){
 	if(k>3){
 		k=1;
 	}
-},1000);
+},2000);
 
 // animation shape
 var photos = document.getElementsByClassName("photo");
