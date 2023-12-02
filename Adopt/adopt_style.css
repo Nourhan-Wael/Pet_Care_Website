@@ -88,10 +88,7 @@ border-radius: 20px;
 .pill{
 	background-color : #CA8D55;
 	color: white;
-	font-size: 16;
-	
-	
-	
+	font-size: 16;	
 }
 
 .shape-logo1 {
@@ -159,6 +156,8 @@ border-radius: 20px;
 }
 
 .pill{
+	display: flex;
+	justify-content: center;
 	font-size: 16px;
 	background-color:#CA8D55;
 	color: white;
@@ -215,10 +214,11 @@ border-radius: 20px;
 
 	.select-box{
 
-		background-color:#FF8D4C ;
+	background-color:#FF8D4C ;
 	font-size: 18PX;
 	color: white;
-	 margin: 5px;
+	margin: 5px;
+	padding-left:10px ;
 	border-radius: 60px;
 	border: 1PX;
 	outline: none;
@@ -227,14 +227,16 @@ border-radius: 20px;
 	border-right:dashed;
 	border-right-color:#5A2828 ;
 	cursor: pointer;
-	
+	-webkit-appearance: none;
 	
 	}
-.imgb{
-	position: relative;
-	top:-32%;
-	right:-88%;
-}
+	.imgp{
+		position: relative;
+		right: 15%;
+		top: 5%;
+		
+	}
+
 	
 
 
