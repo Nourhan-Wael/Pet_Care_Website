@@ -1,6 +1,7 @@
 body{
 	background-color: #FFEED9;
 }
+/*------------------------------------ -----------Title--------------------------------------------------------- */
 .p1{
 	font-size: 40px;
 	margin-top: 10%;
@@ -10,15 +11,17 @@ body{
 	margin-top: -30px;
 	font-size: 20px;
 }
-.CUSTOMIZE{
-  font-size: 30px;
-  margin-left: 20%;
-  margin-top: 15%;
-}
+
 .title{
 	margin-left: 40px;
 	margin-right: 70%;
 }
+/*------------------------------------ ---------------CUSTOMIZE/check box----------------------------------------------------- */
+.CUSTOMIZE{
+	font-size: 30px;
+	margin-left: 20%;
+	margin-top: 15%;
+  }
 .box{
 	background-color: rgba(239, 141, 22, 0.661);
 	margin-left: 20%;
@@ -95,13 +98,7 @@ body{
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
   }
-/* .pet{
-	font-size: 20px;
-	font-weight: bold;
-	margin-left:3% ;
-	margin-top: -10%;
-} */
-
+  /* -------------------------------------------Drob List---------------------------------------------- */
   .list{
 	color: white;
 	font-size: 16px;
@@ -166,10 +163,12 @@ body{
 	display: flex;
 	justify-content: center;
 }
+/* -------------------------------------------Products/bootstrap--------------------------------------------------- */
 
 .container{
-	margin-left: 20%;
+	margin-left: 16%;
 	margin-top: -40%;
+	margin: -35% 0% 0% 15%;
 }
 .line{
 	margin-left: 35%;
@@ -189,184 +188,68 @@ body{
 .card{
 	background-color:rgba(239, 141, 22, 0.661);
 	border-radius: 50px;
-	margin-bottom: 35%;
+	margin-bottom: 45%;
 }
-.img1 .price{
+.price{
 	background-color: #e57812;
 	width: 100%;
 	border-radius: 0 0 30px 30px;
-	margin-top: -30px;
+	margin-top: 6%;
 	text-align: center;
 	color: white;
 }
-.img1 .btn{
+.btn{
+	display: flex;
 	background-color:#5A2828;
 	width: 60px;
 	height: 25px;
 	color: white;
-	text-align: center;
 	padding: 0%;
+	text-align: center;
 	border-radius: 50px;
-	margin-top: -30px;
-	margin-left: 33px;
+	justify-content: center;
+	align-items:center ;
+	margin-top: -11%;
+	margin-left: 28%;
+}
+
+.card-text1{
+	color: #ad733c;
+	font-size: 13px;
+	text-align: center;
+	margin-top: 2%;
 }
 .img1 .card-img{
-	margin-left: 10%;
-}
-.card-text1{
-	color: #CA8D55;
-	font-size: 12px;
-	text-align: center;
-}
-.img2 .price{
-	background-color: #e57812;
-	width: 100%;
-	border-radius: 0 0 30px 30px;
-	margin-top: 25px;
-	text-align: center;
-	color: white;
-}
-.img2 .btn{
-	background-color:#5A2828;
-	width: 60px;
-	height: 25px;
-	color: white;
-	padding: 0%;
-	text-align: center;
-	border-radius: 50px;
-	margin-top: -30px;
-	margin-left: 33px;
+	margin-left: 23%;
+	width: 79%;
 }
 .img2 .card-img{
 	margin-top: 15%;
+	width: 110%;
+	margin-left: -5%;
 }
-.img3 .price{
-	background-color: #e57812;
-	width: 100%;
-	border-radius: 0 0 30px 30px;
-	margin-top: -10px;
-	text-align: center;
-	color: white;
+.img3 .card-img{
+	width: 88%;
+	margin-left: 5%;
 }
-.img3 .btn{
-	background-color:#5A2828;
-	width: 60px;
-	height: 25px;
-	color: white;
-	padding: 0%;
-	text-align: center;
-	border-radius: 50px;
-	margin-top: -30px;
-	margin-left: 33px;
-}
-
-.img4 .price{
-	background-color: #e57812;
-	width: 100%;
-	border-radius: 0 0 30px 30px;
-	margin-top: 30px;
-	text-align: center;
-	color: white;
-}
-.img4 .btn{
-	background-color:#5A2828;
-	width: 60px;
-	height: 25px;
-	color: white;
-	padding: 0%;
-	text-align: center;
-	border-radius: 50px;
-	margin-top: -30px;
-	margin-left: 33px;
-}
-.img5 .price{
-	background-color: #e57812;
-	width: 100%;
-	border-radius: 0 0 30px 30px;
-	margin-top: 10px;
-	text-align: center;
-	color: white;
-}
-.img5 .btn{
-	background-color:#5A2828;
-	width: 60px;
-	height: 25px;
-	color: white;
-	padding: 0%;
-	text-align: center;
-	border-radius: 50px;
-	margin-top: -30px;
-	margin-left: 33px;
+.img4 .card-img{
+	width: 112%;
 }
 .img5 .card-img{
 	margin-top: 10%;
-}
-.img6 .price{
-	background-color: #e57812;
-	width: 100%;
-	border-radius: 0 0 30px 30px;
-	margin-top: 10px;
-	text-align: center;
-	color: white;
-}
-.img6 .btn{
-	background-color:#5A2828;
-	width: 60px;
-	height: 25px;
-	color: white;
-	padding: 0%;
-	text-align: center;
-	border-radius: 50px;
-	margin-top: -30px;
-	margin-left: 38px;
 }
 .img6 .card-img{
 	padding-right: 15%;
 	width: 130%;
 	margin-top: 10%;
 }
-.img7 .price{
-	background-color: #e57812;
-	width: 100%;
-	border-radius: 0 0 30px 30px;
-	text-align: center;
-	color: white;
-}
-.img7 .btn {
-	background-color:#5A2828;
-	width: 60px;
-	height: 25px;
-	color: white;
-	padding: 0%;
-	text-align: center;
-	border-radius: 50px;
-	margin-top: -20px;
-	margin-left: 33px;
-}
+
 .img7 .card-img{
 	margin-top: 20%;
 	margin-left: 10%;
-	width: 80%;
+	width: 75%;
 }
-.img8 .price{
-	background-color: #e57812;
-	width: 100%;
-	border-radius: 0 0 30px 30px;	
-	text-align: center;
-	color: white;
-	margin-top: 5%;
-}
-.img8 .btn{
-	background-color:#5A2828;
-	width: 60px;
-	height: 25px;
-	color: white;
-	padding: 0%;
-	text-align: center;
-	border-radius: 50px;
-	margin-top: -30px;
-	margin-left: 33px;
-}
+
 .img8 .card-img{
 	margin-top: 20%;
 	margin-right: 10%;
@@ -381,6 +264,11 @@ body{
 .card:hover{
 	background-color: #FF772A;
 }
+.check1{
+	display: flex;
+	justify-content: center;
+}
+
 
 
 
