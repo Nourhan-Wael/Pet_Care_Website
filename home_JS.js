@@ -4,6 +4,30 @@ $('#header').load('./Header/header.html');
 // load footer
 $('#footer').load('./Footer/footer.html');
 
+//first slideshow
+
+var i=1;
+setInterval(function(){
+	var j=i++;
+	document.getElementById("slide1").setAttribute("src","./images/Home page/img "+j+".svg")
+	document.getElementById("slide2").setAttribute("src","./images/Home page/img "+i+".svg")
+	i++;
+	if(i>6){
+		i=1;
+	}
+},1000);
+
+//second slideshow
+
+var k=1;
+setInterval(function(){
+	document.getElementById("bigslide").setAttribute("src","./images/Home page/slide image/slide "+k+".png");
+	k++;
+	if(k>3){
+		k=1;
+	}
+},1000);
+
 // animation shape
 var photos = document.getElementsByClassName("photo");
 var currentIndex = 0;
