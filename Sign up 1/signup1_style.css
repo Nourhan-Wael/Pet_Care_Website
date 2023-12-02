@@ -16,7 +16,7 @@ body{
     text-align: center;
     }
 #p1{
-    font-size: 24px;
+    font-size:30px;
     color: #CA8D55;
     text-align: center;
     padding-bottom: 5%;
@@ -77,25 +77,28 @@ label{
     cursor:pointer;
 
 }
-.next button:hover{
-    background-color: #ff8a47;
-}
+
 .signup form{
     position: relative ;
 }
 .image1{
-    width: 30%;
+    width: 40%;
     position:absolute;
-    top: 20px;
+    bottom: 20px;
     right: 80px;
 }
 .image2{
-    width: 30%;
+    width: 35%;
     position:absolute;
-    top:20px;
-    right: 80px;
+    bottom:120px;
+    right: 120px;
 }
-.p3{
+
+.logIn{
     font-size: 24px;
     color: #CA8D55;
+
+}
+.logIn:link{
+    color:none;
 }
