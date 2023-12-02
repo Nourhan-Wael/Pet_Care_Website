@@ -11,14 +11,14 @@
 		</div>
 		<div class="care">
 			<div class="link">
-				<a href="#" onclick="displaybox()" ondblclick="hidebox()">Care</a>
-				<img id="click" src="../images/Home page/Polygon.svg">
+				<a href="#" onmouseover="showimage()" onmouseleave="hideimage()">Care</a>
+				<img id="click" src="../images/Home page/Polygon.svg" onclick="displaybox()" ondblclick="hidebox()">
 			</div>
+			<img class="hide" src="../images/line header.svg">
 			<div id="box">
 				<a href="../Care/care.html"><button>Petsitting</button></a>
 				<a href="../Stores/stores.html"><button>Stores</button></a>
 			</div>
-			<img class="hide" src="../images/line header.svg">
 		</div>
 		<div>
 			<a href="../Vets/vets.html">Vets</a>
@@ -36,12 +36,20 @@
 		// box appear
 		function displaybox(){
 			document.getElementById("box").style.display="inline-flex";
-			document.getElementById("click").style.display="inline-flex";
+			// document.getElementById("click").style.display="inline-flex";
 		}
 		// box hide
 		function hidebox(){
 			document.getElementById("box").style.display="none";
-			document.getElementById("click").style.visibility="hidden"
+			// document.getElementById("click").style.visibility="hidden"
+		}
+		// show image under care
+		function showimage(){
+			document.getElementsByClassName("hide")[2].style.display="block";
+		}
+		// hide image under care
+		function hideimage(){
+			document.getElementsByClassName("hide")[2].style.display="none";
 		}
 
 	</script>
@@ -108,9 +116,9 @@
 	header nav a:hover + .hide{
 		display: block;
 	}
-	header nav .link:hover ~ .hide{
+	/* header nav .link a:hover  .hide{
 		display: block;
-	}
+	} */
 
 	header .register button:hover{
 	background-color: #CF550F;
@@ -154,7 +162,7 @@
 		/* width: 2px; */
 		height: 13px;
 		margin-left: 10px;
-		display: none;
+		/* display: none; */
 	}
 
 </style>
