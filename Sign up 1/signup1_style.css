@@ -15,6 +15,21 @@ body{
     color: #5A2828;
     text-align: center;
     }
+.contain{
+    position: relative;
+    text-align: center;
+    color:#eba564;
+}
+.left{
+    position: absolute;
+    top:35px;
+    left: 280px;
+}
+.right{
+    position: absolute;
+    top:35px;
+    right: 280px;
+}
 #p1{
     font-size:30px;
     color: #CA8D55;
