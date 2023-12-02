@@ -30,42 +30,9 @@ margin-left: -13em;
 
 }
 
-/* .content{
-    font-size: 4px;
-} */
-
-.form{
-    position: relative;
-    font-size: 1.3em;
-    padding-left: 6em;
-    margin-top: 5em;
-    width: auto;
-
-}
 
 
-.form1{
 
-    display:flex;
-    margin: 9px 0 9px 0;
-}
-   
-
-.form input{
-    border-radius: 50em;
-   
-    padding: 0 0.5em 0 0.5em;
-    border: 0.2em solid rgba(255,255,255, 0.015);
-    background: #FF8D4Ca0 ;
-    height: 36px;
-    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.085),
-                0 2px 30px 0 rgba(0,0,0,0.2);
-    font-size: 1em;
-    color: #5A2828;
-    width: 28em;
-    text-align: center;
-    
-}
 
 
 .form0{
