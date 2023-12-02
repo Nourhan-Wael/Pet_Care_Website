@@ -9,13 +9,16 @@
 			<a href="../Adopt/adopt.html">Adopt</a>
 			<img class="hide" src="../images/line header.svg">
 		</div>
-		<div>
-			<a href="../Care/care.html">Care</a>
-			<img class="hide" src="../images/line header.svg">
-			<div id="box">
-				<button>Petsitting</button>
-				<button>Stores</button>
+		<div class="care">
+			<div class="link">
+				<a id="link" href="#" onclick="displaybox()" ondblclick="hidebox()">Care</a>
+				<img id="click" src="../images/Home page/Polygon.svg">
 			</div>
+			<div id="box">
+				<a href="../Care/care.html"><button>Petsitting</button></a>
+				<a href="../Stores/stores.html"><button>Stores</button></a>
+			</div>
+			<img class="hide" src="../images/line header.svg">
 		</div>
 		<div>
 			<a href="../Vets/vets.html">Vets</a>
@@ -27,6 +30,21 @@
 		<a href="../Login/login.html"><button>Login</button></a>
 		<a href="../Sign up 1/signup1.html">Sign Up</a>
 	</div>
+
+
+	<script>
+		// box appear
+		function displaybox(){
+			document.getElementById("box").style.display="inline-flex";
+			document.getElementById("click").style.display="inline-flex";
+		}
+		// box hide
+		function hidebox(){
+			document.getElementById("box").style.display="none";
+			document.getElementById("click").style.visibility="hidden"
+		}
+
+	</script>
 	
 </header>
 <style>
@@ -57,7 +75,7 @@
 		align-items: center;
 	}
 	header nav .hide{
-		display: none;
+		display: none;	
 	}
 	header a{
 		letter-spacing: 1px;
@@ -90,6 +108,9 @@
 	header nav a:hover + .hide{
 		display: block;
 	}
+	header nav .link:hover ~ .hide{
+		display: block;
+	}
 
 	header .register button:hover{
 	background-color: #CF550F;
@@ -107,8 +128,8 @@
 		border: 0px;
 		border-right: 2px dashed #5A2828;
 		z-index: 1;
-		/* padding:5px 30px; */
-		/* border-radius: 30% /60%; */
+		padding:20px 0px;
+		display: none;
 	}
 	#box button{
 		width : 118px;
@@ -118,10 +139,22 @@
 		background-color: #FFC48E;
 		border-radius : 30px; 
 		border: 0px;
-		border-left: 2px solid #5A2828;
+		border-left: 3px solid #5A2828;
 		
-		margin-top: 10px;
-		margin-bottom: 10px;
+		/* margin-top: 20px; */
+		margin-bottom: 15px;
 		
 	}
+	header .care .link{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	header .care .link #click{
+		/* width: 2px; */
+		height: 13px;
+		margin-left: 10px;
+		display: none;
+	}
+
 </style>
