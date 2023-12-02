@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family:'Akshar', sans-serif;
 }
-
 body{
 	background-color: #FFEED9;
 }
 
-.content{
+.conteeent{
     font-family:'Akshar', sans-serif;
     font-size: 48px;
     width: auto;
@@ -20,15 +20,19 @@ color: #5A2828;
 margin-left: -13em;
 
 
+
 }
 .par{
     text-align: center;
     padding-bottom: 5%;
     font-size: 24px;
    color: #CA8D55;
+
 }
 
-
+/* .content{
+    font-size: 4px;
+} */
 
 .form{
     position: relative;
@@ -39,9 +43,7 @@ margin-left: -13em;
 
 }
 
-/* .login{
-    display: inline;
-} */
+
 .form1{
 
     display:flex;
@@ -49,7 +51,7 @@ margin-left: -13em;
 }
    
 
-/* .form input{
+.form input{
     border-radius: 50em;
    
     padding: 0 0.5em 0 0.5em;
@@ -63,21 +65,18 @@ margin-left: -13em;
     width: 28em;
     text-align: center;
     
-} */
+}
 
 
 .form0{
-    /* background-color: #FF8D4Ca0 ; */
     
+
     margin-left: 10em;
     margin-top:-2.8em;
     margin-bottom: auto;
     margin-right: auto;
 }
-/* label{
-    color: #fff;
-    margin: 0 0 5px 15px;
-} */
+
 .input-field{
     display: flex;
     flex-direction: column;
@@ -91,7 +90,7 @@ input{
     
     outline: none;
     
-    /* padding: 0 0.2em 0 0.2em; */
+    padding: 0 0.2em 0 0.2em;
     border: 0.2em solid rgba(255,255,255, 0.015);
     background-color: #FF8D4Ca0 ;
     height: 46px;
@@ -116,7 +115,7 @@ input:focus,input:valid{
     transition: .3s ease-in-out;
     margin-top: -3em;
     margin-left: 22em;
-    width: 6.5em;
+    width: 7em;
     
 }
 .submit:hover{
@@ -127,14 +126,17 @@ input:focus,input:valid{
     box-shadow: 0 1px 10px 0 rgba(0,0,0,0.085),
     0 2px 30px 0 rgba(0,0,0,0.2);
 }
-.img1 img{
+
+
+
+ .img1 img{
     float: right;
-    margin-top: -25em;
+    margin-top: -20em;
 }
 
 .img2 img{
     float: right;
-    margin-top: -27em;
+    margin-top: -22em;
     margin-right: -34em;
 }
 
@@ -142,25 +144,23 @@ input:focus,input:valid{
     /* vertical-align: middle; */
     float: left;
     margin-top: -22em;
-    margin-left: 12em;
+    margin-left: 11em;
     
     
     
 }
 .img3 .step{
     
-        /* text-align: center; */
-        /* padding-bottom: em; */
+        
         color: #000;
-        /* margin-top: -18em; */
+       
     font-size: 16px;
         position: absolute;
-    /* bottom: 0; */
+ 
     background: rgba(0,0,0,0);
 
-    /* width: 100%; */
-    /* padding: 1em; */
-    margin-left: 17em;
+ 
+    margin-left: 15.8em;
     margin-top: -18.5em;
     
 
@@ -168,125 +168,18 @@ input:focus,input:valid{
 .img3 .num1{
     background: rgba(0,0,0,0);
     position: absolute;
-    margin-left: 14em ;
+    margin-left: 13em ;
     margin-top: -19.8em ;
 }
 .img3 .num2{
     background: rgba(0,0,0,0);
     position: absolute;
-    margin-left: 23.2em ;
+    margin-left: 22.2em ;
     margin-top: -19.8em ;
-}
-
-/* .img img{
-    width: 100%;
-    float: bottom;
-    margin-left: -2em;
-    
-    }  */
+} 
 
 
 
 
 
 
-
-
-/* .u{
-    border-radius: 50em;
-   
-    padding: 0 0.5em 0 0.5em;
-    border: 0.2em solid rgba(255,255,255, 0.015);
-    background: #FF8D4Ca0 ;
-    height: 36px;
-    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.085),
-                0 2px 30px 0 rgba(0,0,0,0.2);
-    font-size: 1em;
-    color: #5A2828;
-    width: 28em;
-    text-align: center;
-
-
-} */
-
-/* .v{
-    border-radius: 50em;
-   
-    padding: 0 0.5em 0 0.5em;
-    border: 0.2em solid rgba(255,255,255, 0.015);
-    background: #FF8D4Ca0 ;
-    height: 38px;
-    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.085),
-                0 2px 30px 0 rgba(0,0,0,0.2);
-    font-size: 1em;
-    color: #5A2828;
-    border-bottom: #000 dashed;
-    margin-left: 4em;
-    width: 6.5em;
-}
-.sign_up{
-    margin-top: 2.1em ;
-    margin-left: 9em;
-} */
-
-/* .img1 img{
-    float: right;
-    margin-top: -25em;
-}
-.img2 img{
-    float: right;
-    margin-top: -27em;
-    margin-right: -34em;
-}
-
-.img3{
-    margin: 0 auto;
-    position: absolute;
-}
-.img3 img{ vertical-align: middle;
-    float: left;
-    margin-top: -24em;
-    margin-left: 22em;
-    
-}
-.img3 .num{
-    position: absolute;
-    bottom: 0;
-    background: rgba(0,0,0,0);
-    width: 100%;
-    padding: 19.5em;
-    margin-left:4.5em;
-}
-.img3 .num2{
-    position: absolute;
-    bottom: 0;
-    background: rgba(0,0,0,0);
-
-    width: 100%;
-    padding: 18.5em;
-    margin-left: 8.2em;
-}
-
-.img img{
-width: 100%;
-float: bottom;
-
-
-} */
-
-
-
-/* .input-field{
-    display: flex;
-
-
-}
-input{
-    outline: none;
-}
-input:focus,input:valid{
-    border: 2px solid rgba(255,255,255,0.65);
-    background: transparent;
-    box-shadow: none;
-    border-radius: 30px;
-} */
