@@ -11,6 +11,135 @@ body{
 	background-color: #FFEED9;
 }
 
+
+.shapes-animation1 {
+	position: absolute;
+	left: 90%;
+	top: 70%;
+
+  }
+  .shapes-animation2 {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+  
+    }  
+  
+  
+  .photo {
+	position: absolute;
+	top: 70%;
+	left: 90%;
+	opacity: 0;
+	transition: opacity 1s;
+  }
+  
+  
+.photo.active {
+	opacity: 1;
+}
+
+.photo2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 1s;
+  }
+  
+  .photo2.active {
+	opacity: 1;
+  }
+
+
+.pethand1{
+	position: absolute;
+	left:0%;
+	top:65%;
+  transform: rotate(56deg);
+}
+
+.pethand2{
+	position: absolute;
+	left:2%;
+	top:110%;
+  transform: rotate(-40deg);
+}
+.pethand3{
+	position: absolute;
+	left:30%;
+	top:117%;
+  transform: rotate(-40deg);
+}
+.pethand4{
+	position: absolute;
+	left:37%;
+	top:90%;
+  transform: rotate(100deg);
+}
+.pethand5{
+	position: absolute;
+	left:45%;
+	top:30%;
+  transform: rotate(-30deg);
+}
+.pethand6{
+	position: absolute;
+	left:95%;
+	top:105%;
+  transform: rotate(40deg);
+}
+.pethand7{
+	position: absolute;
+	right:90%;
+	bottom:70%;
+  transform: rotate(40deg);
+}
+.pethand8{
+	position: absolute;
+	left:80%;
+	bottom:75%;
+  transform: rotate(40deg);
+}
+
+
+.bone2{
+	position: absolute;
+	left:2%;
+	top:120%;
+}
+.bone1{
+	position: absolute;
+	left:37%;
+	top:120%;
+}
+.bone3{
+	position: absolute;
+	left:0%;
+	top:50%;
+}
+.bone4{
+	position: absolute;
+	left:95%;
+	top:90%;
+}
+.bone5{
+	position: absolute;
+	right:82%;
+	top:78%;
+}
+.bone8{
+	position: absolute;
+	left:75%;
+	bottom:78%;
+}
+
+
+
+
+
+
+
 .conteeent{
     font-family:'Akshar', sans-serif;
     font-size: 48px;
@@ -52,7 +181,7 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     margin: 12px 0 12px 0;
-    width: 30em;
+    width: 40em;
     }
 input{
 
@@ -64,7 +193,7 @@ input{
     padding: 0 0.2em 0 0.2em;
     border: 0.2em solid rgba(255,255,255, 0.015);
     background-color: #FF8D4Ca0 ;
-    height: 46px;
+    height: 55px;
     box-shadow: 0 1px 10px 0 rgba(0,0,0,0.085),
     0 2px 30px 0 rgba(0,0,0,0.2);
     border-radius: 50px;
@@ -80,14 +209,14 @@ input:focus,input:valid{
 }
 .submit{
     background: #FF8D4Ca0;
-    height: 40px;
+    height: 50px;
     border: 2px solid rgba(255,255,255,0.65);
     box-shadow: none;
     transition: .3s ease-in-out;
-    margin-top: -3em;
-    margin-left: 22em;
-    width: 7em;
-    
+    margin-top: -4em;
+    margin-left: 28em;
+    width: 10em;
+   
 }
 .submit:hover{
     color: #5A2828;
@@ -109,7 +238,7 @@ input:focus,input:valid{
     justify-content: center;
     flex-direction: column;
     height: 100vh;
-    margin-top: -26em;
+    margin-top: -30em;
 }
 
 .img1 img[alt='dog']{
@@ -117,7 +246,8 @@ input:focus,input:valid{
     margin-top: -22em;
     margin-right: -34em; */
     position: absolute;
-    right: 40px;
+    right: 30px;
+    top: 150px;
 }
 /* .container{
 
@@ -139,8 +269,8 @@ input:focus,input:valid{
 .img3 img{
   
     float: left;
-    margin-top: -22em;
-    margin-left: 11em;
+    margin-top: -25em;
+    margin-left: 8em;
     
     
     
@@ -156,23 +286,26 @@ input:focus,input:valid{
     background: rgba(0,0,0,0);
 
  
-    margin-left: 15.8em;
-    margin-top: -18.5em;
+    margin-left: 13em;
+    margin-top: -21.5em;
     
 
 }
 .img3 .num1{
     background: rgba(0,0,0,0);
     position: absolute;
-    margin-left: 13em ;
-    margin-top: -19.8em ;
+    margin-left: 10em ;
+    margin-top: -22.8em ;
 }
 .img3 .num2{
     background: rgba(0,0,0,0);
     position: absolute;
-    margin-left: 22.2em ;
-    margin-top: -19.8em ;
+    margin-left: 19.2em ;
+    margin-top: -22.8em ;
 } 
+.llink{
+    margin-top: 1em;
+}
 
 
 
