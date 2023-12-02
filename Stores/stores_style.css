@@ -163,10 +163,12 @@ body{
 	display: flex;
 	justify-content: center;
 }
+/* -------------------------------------Products/Bootstrap----------------------- */
 
 .container{
 	margin-left: 20%;
 	margin-top: -40%;
+	width: fit-content;
 }
 .line{
 	margin-left: 35%;
@@ -177,8 +179,9 @@ body{
 	padding-left: 40%;
 }
 .row{
-	width: 90%;
+	width: 85%;
 	margin-left: 7%;
+
 }
 .card-img{
 	margin: 0px;
@@ -186,7 +189,7 @@ body{
 .card{
 	background-color:rgba(239, 141, 22, 0.661);
 	border-radius: 50px;
-	margin-bottom: 45%;
+	margin-bottom: 55%;
 }
 .price{
 	background-color: #e57812;
