@@ -143,10 +143,10 @@ text-align: center;
 }
 .bones img[alt='bone1']{
     margin-top: 1em;
-    margin-left: 11em ;
-    margin-right: 11em;
-	/* margin-left: 150px;
-	margin-right: 160px; */
+    margin-left: 12em ;
+    margin-right: 12em;
+	  /*margin-left: 150px;
+	  margin-right: 160px; */
   
    
 }
@@ -283,7 +283,7 @@ label{
 .word img{
 	position: absolute;
 	/* right: 169px; */
-  right: 28%;
+  right: 29.5%;
 }
 .social-icons{
     display: flex;

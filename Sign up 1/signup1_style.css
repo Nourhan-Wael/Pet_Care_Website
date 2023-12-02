@@ -9,6 +9,103 @@
 body{
 	background-color: #FFEED9;
 }
+.shapes-animation1 {
+	position: absolute;
+	left: 90%;
+	top: 70%;
+
+  }
+  .shapes-animation2 {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+  
+    }  
+  
+  
+  .photo {
+	position: absolute;
+	top: 70%;
+	left: 90%;
+	opacity: 0;
+	transition: opacity 1s;
+  }
+  
+  
+.photo.active {
+	opacity: 1;
+}
+
+.photo2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 1s;
+  }
+  
+  .photo2.active {
+	opacity: 1;
+  }
+
+
+.pethand1{
+	position: absolute;
+	left:0%;
+	top:65%;
+  transform: rotate(56deg);
+}
+
+.pethand2{
+	position: absolute;
+	left:2%;
+	top:110%;
+  transform: rotate(-40deg);
+}
+.pethand3{
+	position: absolute;
+	left:30%;
+	top:117%;
+  transform: rotate(-40deg);
+}
+.pethand4{
+	position: absolute;
+	left:37%;
+	top:90%;
+  transform: rotate(100deg);
+}
+.pethand5{
+	position: absolute;
+	left:45%;
+	top:30%;
+  transform: rotate(-30deg);
+}
+.pethand6{
+	position: absolute;
+	left:95%;
+	top:105%;
+  transform: rotate(40deg);
+}
+.bone2{
+	position: absolute;
+	left:20%;
+	top:120%;
+}
+.bone1{
+	position: absolute;
+	left:37%;
+	top:120%;
+}
+.bone3{
+	position: absolute;
+	left:0%;
+	top:50%;
+}
+.bone4{
+	position: absolute;
+	left:95%;
+	top:90%;
+}
 
 #psignup {
     font-size: 48px;
