@@ -246,7 +246,8 @@ input:focus,input:valid{
     margin-top: -22em;
     margin-right: -34em; */
     position: absolute;
-    right: 40px;
+    right: 30px;
+    top: 150px;
 }
 /* .container{
 
@@ -269,7 +270,7 @@ input:focus,input:valid{
   
     float: left;
     margin-top: -25em;
-    margin-left: 11em;
+    margin-left: 8em;
     
     
     
@@ -285,7 +286,7 @@ input:focus,input:valid{
     background: rgba(0,0,0,0);
 
  
-    margin-left: 15.8em;
+    margin-left: 13em;
     margin-top: -21.5em;
     
 
@@ -293,13 +294,13 @@ input:focus,input:valid{
 .img3 .num1{
     background: rgba(0,0,0,0);
     position: absolute;
-    margin-left: 13em ;
+    margin-left: 10em ;
     margin-top: -22.8em ;
 }
 .img3 .num2{
     background: rgba(0,0,0,0);
     position: absolute;
-    margin-left: 22.2em ;
+    margin-left: 19.2em ;
     margin-top: -22.8em ;
 } 
 .llink{
