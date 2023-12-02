@@ -115,17 +115,19 @@ body{
 .contain{
     position: relative;
     text-align: center;
-    color:#eba564;
+    
 }
 .left{
     position: absolute;
     top:35px;
     left: 280px;
+    color:#eba564;
 }
 .right{
     position: absolute;
     top:35px;
     right: 280px;
+    color:white;
 }
 #p1{
     font-size:30px;
