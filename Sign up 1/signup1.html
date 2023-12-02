@@ -1,32 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>My Petty</title>
-	
-		<!-- JQuery for sharing same header and footer -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-			integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-			crossorigin="anonymous" referrerpolicy="no-referrer">
-		</script>
-		<!-- link CSS -->
-		<link rel="stylesheet" href="signup1_style.css">
-		<!-- Font Family -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500&display=swap" rel="stylesheet">
-		<!-- icon -->
-		<link rel="icon" href="../images/icon.svg">
-
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>My Petty</title>
+		
+			<!-- JQuery for sharing same header and footer -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+				integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+				crossorigin="anonymous" referrerpolicy="no-referrer">
+			</script>
+			<!-- link CSS -->
+			<link rel="stylesheet" href="signup1_style.css">
+			<!-- Font Family -->
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500&display=swap" rel="stylesheet">
+			<!-- icon -->
+			<link rel="icon" href="../images/icon.svg">	</head>
+			
 	</head>
 	
 <body>
 	<div id="header"></div>
-	<h1>Hello From Sign Up</h1>
 
-	
+
+	<div class="signup">
+		<form>
+			
+			<p id="psignup">Sign up</p>
+			<p id="p1">To keep touch with All pets</p>
+			<img class="center" src="../images/sign up page/step line.svg" alt="buuble"><br>
+			<p id="p2">Step 1 of 2</p>
+		
+			<label for="username">Username</label><br>
+			<input class="input_container" type="username" id="username" placeholder="Enter your Username"><br>
+			
+			<label for="pass">Password</label><br>
+			<input class="input_container" type="password" id="pass" placeholder="Enter your Password"><br>
+
+			<label for="email">Email</label><br>
+			<input class="input_container" type="email" id="email" placeholder="Enter your Email"><br>
+			</form>
+			<br>
+
+			<p class="p3">Have Already Any Account?<a href="../Login/login.html">LOG IN</a> <a href="../Sign up 2/signup2.html"<button class="next_button">Next<img src="../images/sign up page/next.svg"></button></a></p>
+
+			
+		
+		
+	</div>
+
+	<div class="dog">
+		<img class="image1" src="../images/sign up page/bubble img 1 sign.svg" alt="buuble">
+		<img class="image2" src="../images/sign up page/img 1 sign.svg" alt="dog">	
+	</div>
+
 	<div id="footer"></div>
 	<script src="signup1_JS.js"></script>
+
+
+
 </body>
 </html>
