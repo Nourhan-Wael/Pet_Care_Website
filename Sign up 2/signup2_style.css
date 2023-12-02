@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family:'Akshar', sans-serif;
-} */
+}
 
 body{
 	background-color: #FFEED9;
@@ -15,18 +15,21 @@ body{
     font-family:'Akshar', sans-serif;
     font-size: 48px;
     width: auto;
-padding-left: 8em;
-margin-top: -1em;
+    text-align: center;
 color: #5A2828;
+margin-left: -13em;
 
 
 }
 .par{
-    padding-left: 14em;
+    text-align: center;
+    padding-bottom: 5%;
     font-size: 24px;
-   margin-top: -2em;
    color: #CA8D55;
 }
+
+
+
 .form{
     position: relative;
     font-size: 1.3em;
@@ -45,7 +48,151 @@ color: #5A2828;
     margin: 9px 0 9px 0;
 }
    
-.u{
+
+/* .form input{
+    border-radius: 50em;
+   
+    padding: 0 0.5em 0 0.5em;
+    border: 0.2em solid rgba(255,255,255, 0.015);
+    background: #FF8D4Ca0 ;
+    height: 36px;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.085),
+                0 2px 30px 0 rgba(0,0,0,0.2);
+    font-size: 1em;
+    color: #5A2828;
+    width: 28em;
+    text-align: center;
+    
+} */
+
+
+.form0{
+    /* background-color: #FF8D4Ca0 ; */
+    
+    margin-left: 10em;
+    margin-top:-2.8em;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+/* label{
+    color: #fff;
+    margin: 0 0 5px 15px;
+} */
+.input-field{
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0 12px 0;
+    width: 30em;
+    }
+input{
+
+  
+    
+    
+    outline: none;
+    
+    /* padding: 0 0.2em 0 0.2em; */
+    border: 0.2em solid rgba(255,255,255, 0.015);
+    background-color: #FF8D4Ca0 ;
+    height: 46px;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.085),
+    0 2px 30px 0 rgba(0,0,0,0.2);
+    border-radius: 50px;
+    font-size: 1em;
+    color: #5A2828;
+    text-align: center; 
+}
+input:focus,input:valid{
+    border: 2px solid rgba(255,255,255,0.65);
+    background: #FF8D4Ca0;
+    box-shadow: none;
+    border-radius: 30px;
+}
+.submit{
+    background: #FF8D4Ca0;
+    height: 40px;
+    border: 2px solid rgba(255,255,255,0.65);
+    box-shadow: none;
+    transition: .3s ease-in-out;
+    margin-top: -3em;
+    margin-left: 22em;
+    width: 6.5em;
+    
+}
+.submit:hover{
+    color: #5A2828;
+    cursor: pointer;
+    border: 2px solid rgba(255,255,255,0.016);
+    background: #f95f06a0;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.085),
+    0 2px 30px 0 rgba(0,0,0,0.2);
+}
+.img1 img{
+    float: right;
+    margin-top: -25em;
+}
+
+.img2 img{
+    float: right;
+    margin-top: -27em;
+    margin-right: -34em;
+}
+
+.img3 img{
+    /* vertical-align: middle; */
+    float: left;
+    margin-top: -22em;
+    margin-left: 12em;
+    
+    
+    
+}
+.img3 .step{
+    
+        /* text-align: center; */
+        /* padding-bottom: em; */
+        color: #000;
+        /* margin-top: -18em; */
+    font-size: 16px;
+        position: absolute;
+    /* bottom: 0; */
+    background: rgba(0,0,0,0);
+
+    /* width: 100%; */
+    /* padding: 1em; */
+    margin-left: 17em;
+    margin-top: -18.5em;
+    
+
+}
+.img3 .num1{
+    background: rgba(0,0,0,0);
+    position: absolute;
+    margin-left: 14em ;
+    margin-top: -19.8em ;
+}
+.img3 .num2{
+    background: rgba(0,0,0,0);
+    position: absolute;
+    margin-left: 23.2em ;
+    margin-top: -19.8em ;
+}
+
+/* .img img{
+    width: 100%;
+    float: bottom;
+    margin-left: -2em;
+    
+    }  */
+
+
+
+
+
+
+
+
+/* .u{
     border-radius: 50em;
    
     padding: 0 0.5em 0 0.5em;
@@ -60,9 +207,9 @@ color: #5A2828;
     text-align: center;
 
 
-}
+} */
 
-.v{
+/* .v{
     border-radius: 50em;
    
     padding: 0 0.5em 0 0.5em;
@@ -80,9 +227,9 @@ color: #5A2828;
 .sign_up{
     margin-top: 2.1em ;
     margin-left: 9em;
-}
+} */
 
-.img1 img{
+/* .img1 img{
     float: right;
     margin-top: -25em;
 }
@@ -125,7 +272,7 @@ width: 100%;
 float: bottom;
 
 
-}
+} */
 
 
 
