@@ -98,7 +98,7 @@ body{
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
   }
-  /* -------------------------------------------Drob List---------------------------------------------- */
+
   .list{
 	color: white;
 	font-size: 16px;
@@ -163,12 +163,10 @@ body{
 	display: flex;
 	justify-content: center;
 }
-/* -------------------------------------------Products/bootstrap--------------------------------------------------- */
 
 .container{
-	margin-left: 16%;
+	margin-left: 20%;
 	margin-top: -40%;
-	margin: -35% 0% 0% 15%;
 }
 .line{
 	margin-left: 35%;
@@ -200,8 +198,8 @@ body{
 }
 .btn{
 	display: flex;
-	background-color:#5A2828;
-	width: 60px;
+	background-color:#b45c29;
+	width: 75px;
 	height: 25px;
 	color: white;
 	padding: 0%;
@@ -209,13 +207,19 @@ body{
 	border-radius: 50px;
 	justify-content: center;
 	align-items:center ;
-	margin-top: -11%;
-	margin-left: 28%;
+	margin-top: -8%;
+	margin-left: 23%;
+	border:#5A2828;
+	border-style: none none dashed none;
+	border-width: 4px;
+}
+.img2 .btn{
+	margin-top: 16%;
 }
 
 .card-text1{
 	color: #ad733c;
-	font-size: 13px;
+	font-size: 14px;
 	text-align: center;
 	margin-top: 2%;
 }
@@ -264,11 +268,6 @@ body{
 .card:hover{
 	background-color: #FF772A;
 }
-.check1{
-	display: flex;
-	justify-content: center;
-}
-
 
 
 
