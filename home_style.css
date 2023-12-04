@@ -251,9 +251,9 @@ article{
 	width: 56.5%;
 	margin-left: 20%;
 }
-/* .aboutus .image{
-	margin-top: 20%;
-} */
+.aboutus .image{
+	width: 100%;
+}
 .aboutus .image img{
 	position: absolute;
 	/* top: 250px; */
@@ -272,6 +272,8 @@ article{
 	color: #5A2828;
 	font-size : 36px;
 	margin-bottom: 100px;
+	width: 450px;
+	margin: auto;
 }
 .feedback .word p{
 	color: #CA8D55;
@@ -281,8 +283,9 @@ article{
 
 .feedback .image{
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	height: 65px;
+	width: 100%;
 }
 .feedback .image img{
 	margin-right: 50px;
@@ -390,4 +393,10 @@ article{
 	position: absolute;
 	left:5%;
 	top:30%;
+}
+
+@media screen {
+	.aboutus .image{
+		width: 100%;
+	}
 }
