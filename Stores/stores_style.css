@@ -164,10 +164,35 @@ body{
 	justify-content: center;
 }
 /* -------------------------------------Products/Bootstrap----------------------- */
-
+#T2{
+	width:fit-content;
+	margin-left: 10%;
+}
+.img-ShoppingBasket{
+	position: absolute;
+	width: 3%;
+    margin-left: 55%;
+    margin-top: -7%;
+}
+#ShoppingBasket{
+	position: absolute;
+	margin-left: 54%;
+	margin-top: -6.5%;
+	color: #5A2828;
+	font-weight: bolder;
+	font-size:25px;
+}
+.getBack{
+	margin-left: 59%;
+    margin-top: -5.5%;
+    background-color: #5A2828;
+    width: 1.5%;
+    height: 1%;
+    position: absolute;
+}
 .container{
 	margin-left: 20%;
-	margin-top: -40%;
+	margin-top: -37%;
 	width: fit-content;
 }
 .line{
@@ -270,6 +295,9 @@ body{
 }
 .card:hover{
 	background-color: #FF772A;
+}
+.getBack:hover{
+	background-color: red;
 }
 
 
