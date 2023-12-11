@@ -203,7 +203,7 @@ label{
   /* Create a custom checkbox */
   .checkmark {
 	position: absolute;
-	top: 300px;
+	top: 340px;
 	left: 10px;
 	height: 25px;
 	width: 25px;
@@ -311,3 +311,23 @@ margin-top: 15px;
     color: #5A2828;
 }
 
+.input input:focus {
+  outline: 0;
+}
+
+.input-container.success input {
+  border-color: #09c372;
+}
+
+.input-container.error input {
+  border-color: #ff3860;
+}
+
+.input-container .error {
+  color: #ff3860;
+  font-size: 15px;
+  height: 13px;
+}
+#f{
+  margin-top: 15px;
+}

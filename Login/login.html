@@ -52,33 +52,42 @@
 		</div>
 
 		<div class="login">
-			<form>
+			<form id="form">
 				<div class="bones">
 					<img src="../images/shapes/bone.svg" alt="bone1" >
 					<img src="../images/shapes/bone 2.svg" alt="bone2">
 				</div>
+				<div id="head">
+					<p id="plogin">Login</p>
+					<p id="p1">To keep touch with All pets</p>
+				</div>	
+				<div class="input-container">
+					<label for="email">Email</label><br>
+					<input type="email" id="email" placeholder="Enter your Email"><br>
+					<div class="error"></div>
+				</div>
 				
-				<p id="plogin">Login</p>
-				<p id="p1">To keep touch with All pets</p>
-			
-				<label for="email">Email</label><br>
-				<input type="email" id="email" placeholder="Enter your Email"><br>
-				
-				<label for="pass">Password</label><br>
-				<input type="password" id="pass" placeholder="Enter your Password"><br>
-				
-				<label class="choises" for="signIn"> Keep me signed in 
-					<input type="checkbox" id="signIn" name="signIn" value="signIn" checked="checked">
+				<div class="input-container">
+					<label for="pass">Password</label><br>
+					<input type="password" id="pass" placeholder="Enter your Password"><br>
+					<div class="error"></div>
+				</div>
+
+				<div id="f">
+					<label class="choises" for="signIn"> Keep me signed in 
+						<input type="checkbox" id="signIn" name="signIn" value="signIn" checked="checked">
+						
+							<span class="checkmark"></span>
+					</label>
 					
-						<span class="checkmark"></span>
-				</label>
-				<!-- <input type="checkbox" class="ch">
-				<label for="ch">Keep me signed in </label>
-			  -->
-				<a href="#" class="forgetPass">Forget Password?</a><br>
+					
+					<a href="#" class="forgetPass">Forget Password?</a><br>
 				
-				<button>Login</button><br>
 				
+				<div id="submit">
+			    	<button type="submit" onclick="login()">Login</button><br>
+				</div>
+
 				<div class="word">
 					<img src="../images/log in page/LINE.svg" alt="line">
 					OR Login With
@@ -88,6 +97,7 @@
 					<a href="#" class="icon"><i class="fa-brands fa-google" style="color: #cf550f;"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-facebook" style="color: #cf550f;"></i></a>
 				</div>
+			</div>
 			</form>
 			<div class="signUp">
 				<span>Don't Have Any Account ?</span>

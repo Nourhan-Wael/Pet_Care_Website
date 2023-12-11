@@ -48,53 +48,35 @@ body{
 	opacity: 1;
   }
 
-
 .pethand1{
 	position: absolute;
-	left:0%;
-	top:65%;
-  transform: rotate(56deg);
+	left:80%;
+	top:25%;
+  transform: rotate(0deg);
 }
 
 .pethand2{
 	position: absolute;
-	left:2%;
-	top:110%;
-  transform: rotate(-40deg);
+	left:84%;
+	top:100%;
+  transform: rotate(40deg);
 }
 .pethand3{
 	position: absolute;
 	left:30%;
-	top:117%;
+	top:110%;
   transform: rotate(-40deg);
 }
-.pethand4{
-	position: absolute;
-	left:37%;
-	top:90%;
-  transform: rotate(100deg);
-}
-.pethand5{
-	position: absolute;
-	left:45%;
-	top:30%;
-  transform: rotate(-30deg);
-}
-.pethand6{
-	position: absolute;
-	left:95%;
-	top:105%;
-  transform: rotate(40deg);
-}
+
 .bone2{
 	position: absolute;
-	left:20%;
-	top:120%;
+	left:50%;
+	top:20%;
 }
 .bone1{
 	position: absolute;
-	left:37%;
-	top:120%;
+	left:10%;
+	top:110%;
 }
 .bone3{
 	position: absolute;
@@ -104,7 +86,7 @@ body{
 .bone4{
 	position: absolute;
 	left:95%;
-	top:90%;
+	top:50%;
 }
 
 #psignup {
@@ -149,7 +131,7 @@ body{
     text-align: center
 }
 .signup{
-	padding: 10px;
+	  padding: 10px;
     margin-right: 100px ;
     position: relative;
     overflow: hidden;
@@ -198,13 +180,13 @@ label{
 .image1{
     width: 40%;
     position:absolute;
-    bottom: 20px;
+    top: 100px;
     right: 80px;
 }
 .image2{
     width: 35%;
     position:absolute;
-    bottom:120px;
+    top:200px;
     right: 120px;
 }
 
