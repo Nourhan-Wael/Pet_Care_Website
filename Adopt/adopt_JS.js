@@ -11,7 +11,7 @@ $('#footer').load('./Footer/footer.html');
 // }
 
 theSelect = document.getElementById("list1")
- imgm = document.getElementById("c1")
+imgm = document.getElementById("c1")
 
 // theSelect.addEventListener("change",function(event){
     
