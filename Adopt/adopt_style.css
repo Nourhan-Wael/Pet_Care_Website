@@ -64,6 +64,9 @@ margin-bottom: 50px;
 border-radius: 20px;
 
 }
+/* .card:hover{
+	display: none;
+} */
 
 .img_title{
 	color: white;
