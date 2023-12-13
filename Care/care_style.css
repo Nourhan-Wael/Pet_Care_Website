@@ -6,20 +6,11 @@ body{
 	--brown:#5A2828;
 	--light-orange:#FF8D4C;
 }
-.first-section{
-	display: grid;
-	grid-template-areas: 'no1 no1 no1 no2 no2';
-	grid-template-columns: repeat(4 , 14em);
-	justify-content: center;
-	margin: 3em;
-}
-.no1{
-	grid-area: no1;
-}
-.pet-setting{
+
+/* .pet-setting{
 	padding : 0 2rem 0 0;
 	
-}
+} */
 .no1 h1 , h3{
 	margin: 0;
 	font-weight: 500;
@@ -28,9 +19,9 @@ body{
 .no1 p{
 	color:var(--light-orange);
 }
-.no2{
+/* .no2{
 	grid-area: no2;
-}
+} */
 .no2 a {
 	display:inline-block;
 	text-decoration: none;
@@ -50,13 +41,19 @@ body{
 	color: white;
 }
 
+.form{
+	padding : 0 3rem 3rem 3rem;
+}
+
 .form h3{
 	font-weight: 450;
 	word-spacing: 9px;
 	letter-spacing: 3px;
 	margin-bottom: 0.9em;
 }
-
+.pet-setting{
+	padding: 1rem 3rem;
+}
 .arrow{
 	appearance: none;
 	background: url("../images/pet sitter/Polygon.svg");
@@ -126,9 +123,9 @@ div.photo{
 	position: relative; 
 	width:200px;
 }
-.cont-style{
+/* .cont-style{
 	margin: 1.5rem 2rem 0;
-}
+} */
 
 .photo img{
 	display:block;
