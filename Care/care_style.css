@@ -132,37 +132,59 @@ div.photo{
 }
 
 .john::after{
-	content: "john";
+	line-height: 47px;
+	font-size: 20px;
+	content: "John";
 }
 .ali::after{
-	content: "ali";
+	line-height: 47px;
+	font-size: 20px;
+	content: "Ali";
 }
 .mohammed::after{
-	content: "mohammed";
+	line-height: 47px;
+	font-size: 20px;
+	content: "Mohammed";
 }
 .ahmed::after{
-	content: "ahmed";
+	line-height: 47px;
+	font-size: 20px;
+	content: "Ahmed";
 }
 .kaila::after{
-	content: "kaila";
+	line-height: 47px;
+	font-size: 20px;
+	content: "Kaila";
 }
 .reda::after{
-	content: "reda";
+	line-height: 47px;
+	font-size: 20px;
+	content: "Reda";
 }
 .ashraf::after{
-	content: "ashraf";
+	line-height: 47px;
+	font-size: 20px;
+	content: "Ashraf";
 }
 .laila::after{
-	content: "laila";
+	line-height: 47px;
+	font-size: 20px;
+	content: "Laila";
 }
 .rama::after{
-	content:"rama"
+	line-height: 47px;
+	font-size: 20px;
+	content:"Rama"
 }
 .dina::after{
-	content:"dina"
+	line-height: 47px;
+	font-size: 20px;
+	content:"Dina"
 }
 .fatima::after{
-	content:"fatima"
+	line-height: 47px;
+	font-size: 20px;
+	content:"Fatima"
 }
 .photo::after {
 	text-align: center;
