@@ -132,39 +132,39 @@ div.photo{
 }
 
 .john::after{
-	line-height: 47px;
+		line-height: 47px;
 	font-size: 20px;
 	content: "John";
 }
 .ali::after{
-	line-height: 47px;
+		line-height: 47px;
 	font-size: 20px;
-	content: "Ali";
+	content: "Ali";	
 }
 .mohammed::after{
-	line-height: 47px;
+		line-height: 47px;
 	font-size: 20px;
-	content: "Mohammed";
+	content: "Mohammed";	
 }
 .ahmed::after{
-	line-height: 47px;
+		line-height: 47px;
 	font-size: 20px;
 	content: "Ahmed";
 }
 .kaila::after{
-	line-height: 47px;
+		line-height: 47px;
 	font-size: 20px;
 	content: "Kaila";
 }
 .reda::after{
-	line-height: 47px;
+		line-height: 47px;
 	font-size: 20px;
 	content: "Reda";
 }
 .ashraf::after{
 	line-height: 47px;
 	font-size: 20px;
-	content: "Ashraf";
+	content: "Ashraf"	
 }
 .laila::after{
 	line-height: 47px;
@@ -174,17 +174,17 @@ div.photo{
 .rama::after{
 	line-height: 47px;
 	font-size: 20px;
-	content:"Rama"
+	content: "Rama";
 }
 .dina::after{
-	line-height: 47px;
+		line-height: 47px;
 	font-size: 20px;
-	content:"Dina"
+	content: "Dina";
 }
 .fatima::after{
-	line-height: 47px;
+		line-height: 47px;
 	font-size: 20px;
-	content:"Fatima"
+	content: "Fatima";
 }
 .photo::after {
 	text-align: center;
