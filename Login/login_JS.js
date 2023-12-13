@@ -69,41 +69,38 @@ const isValidEmail = email => {
 }
 
 const validateInputs = () => {
+
+	// Redirect to the home page
+	if(emailTrue == 1 && passTrue == 1){
+	window.location.href = "../index.html";
+	}
   
-  const emailValue = email.value.trim();
-  const passwordValue = password.value.trim();
- 
+	const emailValue = email.value.trim();
+	const passwordValue = password.value.trim();
+	
 
- 
+	
 
-  if(emailValue === '') {
-      setError(email, 'Email is required');
-  } else if (!isValidEmail(emailValue)) {
-      setError(email, 'Provide a valid email address');
-  } else {
-      emailTrue = 1  ;
-      setSuccess(email);
-     
-  }
+	if(emailValue === '') {
+	setError(email, 'Email is required');
+	} else if (!isValidEmail(emailValue)) {
+	setError(email, 'Provide a valid email address');
+	} else {
+	emailTrue = 1  ;
+	setSuccess(email);
+	
+	}
 
-  if(passwordValue === '') {
-      setError(password, 'Password is required');
-  } else if (passwordValue.length < 8 ) {
-      setError(password, 'Password must be at least 8 character.')
-  } else {
-      passTrue = 1  ;
-      setSuccess(password);
-     
-  }
+	if(passwordValue === '') {
+	setError(password, 'Password is required');
+	} else if (passwordValue.length < 8 ) {
+	setError(password, 'Password must be at least 8 character.')
+	} else {
+	passTrue = 1  ;
+	setSuccess(password);
+	
+	}
 
- 
-
-};
-
-
-  // Redirect to the home page
-  if(emailTrue == 1 && passTrue == 1){
-  window.location.href = "../index.html";
-  }
+	};
 }
 
