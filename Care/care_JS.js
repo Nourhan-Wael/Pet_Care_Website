@@ -28,13 +28,14 @@ $('#header').load('../Header/header.html');
 //     }, speed);
 // }
 
-
-if(document.getElementById("flexhigh").checked){
-    document.getElementById("high").style.display="block";
-    document.getElementById("low").style.display="none";
+function change1(){
+	// if(document.getElementById("flexhigh").checked==true){
+		document.getElementById("high1").style.display="block";
+		document.getElementById("low1").style.display="none";
+	// }
 }
-else if (document.getElementById("flexlow").checked) {
-    document.getElementById("high").style.display="none";
-    document.getElementById("low").style.display="block";
-} 
-console.log(document.getElementById("flexhigh").checked);
+
+// if (document.getElementById("flexlow").checked) {
+//     document.getElementById("high").style.display="none";
+//     document.getElementById("low").style.display="block";
+// } 
