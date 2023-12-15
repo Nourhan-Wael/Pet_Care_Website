@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>My Petty</title>
+	
+		<!-- JQuery for sharing same header and footer -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+			integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+			crossorigin="anonymous" referrerpolicy="no-referrer">
+		</script>
+		<!-- link CSS -->
+		<link rel="stylesheet" href="vets_style.css">
+		<!-- Font Family -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500&display=swap" rel="stylesheet">
+		<!-- icon -->
+		<link rel="icon" href="../images/icon.svg">
+	</head>
+	
+<body>
+	<div id="header"></div>
+<div class="shapes">
+<img  class="bone" src="../images/shapes/bone.svg" height="38px" width="38px">
+<img class="pethand" src="../images/shapes/pet hand.svg" height="50px" width="50px">
+<img class="pethand2" src="../images/shapes/pet hand.svg" height="125px" width="125px">
+<img  class="bone2" src="../images/shapes/bone 2.svg" height="38px" width="38px">
+<img class="shapes-collection" src="../images/shapes/shapes.svg">
+</div>
+
+
+	<div class="section1">
+		<p class="textheader">KEEP</p>
+	    <p class="text1">YOUR LOVED PETS HEALTHY </p>
+		<div class="brief">
+		    <p class="brief1">We believe that a healthy Pets is essential </p>
+			<p class="brief2">for your pet's overall well-being. </p> 
+	         <p class="breif3">Explore our selection of high-quality Vets and hospitals </p>
+		     <p class="brief4">to support their optimal health.</p>
+		</div>
+	</div>
+		
+
+	<div class="box">
+	    <p class="near"> <h2>Near Vets In </h2> </p>
+	  <div class="location">
+		<img class="locationimg" src="../images/Vet/location.svg" alt="location">  
+		<span class="addresstext">Address</span>
+	   </div>
+	</div>
+
+	<div class="container">
+
+	<label class="choises" for="All"> All
+	    <input type="checkbox" id="All" name="All" value="All" checked="checked" >
+	    <span class="checkmark"></span>
+	</label>
+	
+
+	<label  class="choises" for="Vets"> Vets
+	    <input type="checkbox" id="Vets" name="Vets" value="Vets" onclick="vetscheckbox()">
+	    <span class="checkmark"></span>
+	</label>
+
+	<label class="choises" for="Hospitals"> Hospitals
+	     <input type="checkbox" id="Hospitals" name="Hospitals" value="Hospitals" onclick="hosiptalcheckbox()">
+	     <span class="checkmark"></span>
+	</label>
+
+	</div>
+
+	<div class="vets" id="vets">
+
+	  <div class="v1" id="v1">
+	    <img class="vet1" id="vet1" src="../images/Vet/vet.svg"  > 
+	    <span class="name1" id="name1">Lorem ipsum </span>
+	    <p class="lorem1" id="lorem1">Lorem ipsum dolor sit amet consectetur.</p>
+
+	  </div>
+
+	<div class="v2" id="v2">
+	  <img class="hospital1" id="hospital1" src="../images/Vet/hospital.svg">
+
+	  <span class="name2">Lorem ipsum </span>
+	  <p class="lorem2">Lorem ipsum dolor sit amet consectetur.</p>
+
+	</div>
+
+	<div class="v3" id="v3">
+     	<img class="hospital2" id="hospital2" src="../images/Vet/hospital.svg">
+	   <span class="name3">Lorem ipsum </span>
+	   <p class="lorem3">Lorem ipsum dolor sit amet consectetur.</p>
+	</div>
+
+	<div class="v4" id="v4">
+	   <img  class="vet2" id="vet2" src="../images/Vet/vet.svg">
+	   <span class="name4">Lorem ipsum </span>
+	   <p class="lorem4">Lorem ipsum dolor sit amet consectetur.</p>
+
+	</div>
+
+	<div class="v5" id="v5">
+	   <img  class="hospital3" id="hospital3" src="../images/Vet/hospital.svg">
+	    <p class="name5">Lorem ipsum  </p>
+	    <p class="lorem5">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+	</div>
+
+
+
+</div>
+
+	<div class="slideshow">
+	   <img class="image1"src="../images/Vet/img.svg" alt="slide 1" name="health">
+	   <img src="../images/Vet/img 2.svg" alt="slide 2">
+	   <img src="../images/Vet/img 3.svg" alt="slide 3">
+	   
+	</div>
+
+	<img class="bubble" src="../images/Vet/bubble vet.svg">
+	
+	<div class="buttom">
+	<input  type="button" class="button" value="See More">
+
+	</div>
+
+
+	<div class="shapes-animation">
+		<img class="photo" src="../images/shapes/pet hand.svg" alt="photo1" id="photo1">
+		<img class="photo" src="../images/shapes/bone.svg" alt="photo2" id="photo2">
+	</div>
+
+	<div id="footer"></div>
+	<script src="vets_JS.js"></script>
+</body>
+
+</html>
