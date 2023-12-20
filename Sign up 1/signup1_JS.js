@@ -32,85 +32,85 @@ setInterval(showNextPhoto2, 1000); // Change photo every 2 seconds (adjust as ne
 
 
 
-
 //validation
-var  userTrue = 0 ;
-var  emailTrue = 0 ;
-var  passTrue = 0 ;
-
+var userTrue = 0;
+var emailTrue = 0;
+var passTrue = 0;
 
 function signup() {
 
+ const form = document.getElementById('form');
+ const username = document.getElementById('username');
+ const email = document.getElementById('email');
+ const password = document.getElementById('pass');
 
-const form = document.getElementById('form');
-const username = document.getElementById('username');
-const email = document.getElementById('email');
-const password = document.getElementById('pass');
+ form.addEventListener('submit', e => {
+    e.preventDefault();
+    validateInputs();
+ });
 
-form.addEventListener('submit', e => {
-	e.preventDefault();
-	validateInputs();
-});
+ function setError(element, errorMessage) {
+    const inputControl = element.parentElement;
+    const errorDisplay = inputControl.querySelector('.error');
 
-function setError(element, errorMessage) {
-  const inputControl = element.parentElement;
-  const errorDisplay = inputControl.querySelector('.error');
- 
-  if (errorDisplay) {
-     errorDisplay.textContent = errorMessage;
-  } else {
-     const newError = document.createElement('p');
-     newError.className = 'error';
-     newError.textContent = errorMessage;
-     inputControl.appendChild(newError);
-  }
- 
-  inputControl.classList.remove('success');
-  inputControl.classList.add('error');
- }
-
-const isValidEmail = email => {
-  const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  return re.test(String(email).toLowerCase());
-}
-
-
-const validateInputs = () => {
-  // Direct to next signup page
-  if(userTrue ===1 && emailTrue === 1 && passTrue === 1){
-    window.location.href = "../Sign up 2/signup2.html";
+    if (errorDisplay) {
+      errorDisplay.textContent = errorMessage;
+    } else {
+      const newError = document.createElement('p');
+      newError.className = 'error';
+      newError.textContent = errorMessage;
+      inputControl.appendChild(newError);
     }
 
-  const usernameValue = username.value.trim();
-  const emaliValue = email.value.trim();
-  const passwordVlue = password.value.trim();
+    inputControl.classList.remove('success');
+    inputControl.classList.add('error');
+ }
 
-  if(usernameValue === ''){
-    setError(username, 'Username is required');
-  }else{
-	  userTrue = 1 ;
-	  setSuccess(username);
-  }
+ function setSuccess(element) {
+    const inputControl = element.parentElement;
+    inputControl.classList.remove('error');
+    inputControl.classList.add('success');
+ }
 
-  if(passwordVlue === ''){
-    setError(password, 'Password is requied');
-  }else if(passwordVlue.length < 8){
-    setError(password, 'Password must be at least 8 character');
-  }else{
-  
-    passTrue = 1 ;
-    setSuccess(password);
-  }
+ const isValidEmail = email => {
+    const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+ }
 
-  if(emaliValue === ''){
-    setError(email, 'Email is required');
-  }else if(!isValidEmail(emaliValue)){
-    setError(email, 'Provide a valid email address');
-  }else{
-	  emailTrue = 1 ;
-    	setSuccess(email);
-  }
+ const validateInputs = () => {
+    // Direct to next signup page
+    if (userTrue === 1 && emailTrue === 1 && passTrue === 1) {
+      window.location.href = "../Sign up 2/signup2.html";
+    }
 
-};
+    const usernameValue = username.value.trim();
+    const emailValue = email.value.trim();
+    const passwordValue = password.value.trim();
+
+    if (usernameValue === '') {
+      setError(username, 'Username is required');
+    } else {
+      userTrue = 1;
+      setSuccess(username);
+    }
+
+    if (passwordValue === '') {
+      setError(password, 'Password is requied');
+    } else if (passwordValue.length < 8) {
+      setError(password, 'Password must be at least 8 character');
+    } else {
+      passTrue = 1;
+      setSuccess(password);
+    }
+
+    if (emailValue === '') {
+      setError(email, 'Email is required');
+    } else if (!isValidEmail(emailValue)) {
+      setError(email, 'Provide a valid email address');
+    } else {
+      emailTrue = 1;
+      setSuccess(email);
+    }
+
+ };
 }
-
