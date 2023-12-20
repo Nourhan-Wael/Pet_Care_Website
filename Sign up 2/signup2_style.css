@@ -207,15 +207,17 @@ input:focus,input:valid{
     box-shadow: none;
     border-radius: 30px;
 }
-.submit{
+/* .submit{
     background: #FF8D4Ca0;
     height: 50px;
     border: 2px solid rgba(255,255,255,0.65);
+    border-radius: 30px;
     box-shadow: none;
     transition: .3s ease-in-out;
     margin-top: -4em;
     margin-left: 28em;
     width: 10em;
+     cursor: pointer;
    
 }
 .submit:hover{
@@ -225,6 +227,37 @@ input:focus,input:valid{
     background: #f95f06a0;
     box-shadow: 0 1px 10px 0 rgba(0,0,0,0.085),
     0 2px 30px 0 rgba(0,0,0,0.2);
+}
+
+.submit a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+} */
+
+
+.btnn{
+  background: #FF8D4Ca0;
+    height: 48px;
+    border: 2px solid rgba(255,255,255,0.65);
+    border-radius: 30px;
+    box-shadow: none;
+    transition: .3s ease-in-out;
+    margin-top: -4.5em;
+    margin-left: 36em;
+    width: 10em;
+    cursor:pointer;
+}
+.btnn:hover{
+  background: #fff;
+  color: #ff7200;
+  
+}
+.btnn a{
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2em;
+  /* font-weight: bold; */
 }
 
 
@@ -289,27 +322,6 @@ input:focus,input:valid{
 } 
 .llink{
     margin-top: 1em;
-}
-
-.input input:focus {
-  outline: 0;
-}
-
-.input-field.success input {
-  border-color: #09c372;
-}
-
-.input-field.error input {
-  border-color: #ff3860;
-}
-
-.input-field .error {
-  color: #ff3860;
-  font-size: 15px;
-  height: 13px;
-}
-#f{
-  margin-top: 15px;
 }
 
 
