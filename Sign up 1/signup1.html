@@ -47,7 +47,7 @@
 
 
 	<div class="signup">
-		<form>
+		<form id = "form" action="/">
 			
 			<p id="psignup">Sign up</p>
 			<p id="p1">To keep touch with All pets</p>
@@ -60,25 +60,27 @@
 			<br>
 			<p id="p2">Step 1 of 2</a></p>
 		
-			<label for="username">UserName</label><br>
-			<input class="input_container" type="username" id="username" placeholder="Enter your Username"><br>
+			<label for="username">Username</label><br>
+			<input class="input_container" name="username" type="text" id="username" placeholder="Enter your Username"><br>
+			<div class="error"></div>
 			
-			<div class="input-container">
-				<label for="pass">Password</label><br>
-				<input class="input_container" type="password" id="pass" placeholder="Enter your Password"><br>
-				<div class="error"></div>
-			</div>	
-			<div class="input-container">
-				<label for="email">Email</label><br>
-				<input class="input_container" type="email" id="email" placeholder="Enter your Email"><br>
-				<div class="error"></div>
-			</div>
-		</form>
+			<label for="pass">Password</label><br>
+			<input class="input_container" type="password" id="pass" placeholder="Enter your Password"><br>
+			<div class="error"></div>
+
+
+			<label for="email">Email</label><br>
+			<input class="input_container" type="email" id="email" placeholder="Enter your Email"><br>
+			<div class="error"></div>
+
+			</form>
 			<br>
 			<div class="logIn">
 				<span>Don't Have Any Account ?</span>
 				<a style="text-decoration: none; color: #5A2828 ;" href="../Login/login.html">LOG IN</a>
-				<a href="../Sign up 2/signup2.html"<button class="next_button" style="text-decoration: none;">Next<img src="../images/sign up page/next.svg"></button></a>
+				<button type="submit" onclick="signup()" class="next_button" style="text-decoration: none;">Next<img src="../images/sign up page/next.svg"></button>
+				<!--<a href="../Sign up 2/signup2.html"><button class="next_button" style="text-decoration: none;">Next<img src="../images/sign up page/next.svg"></button></a>-->
+
 
 			</div>
 

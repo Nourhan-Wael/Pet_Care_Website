@@ -161,13 +161,13 @@ label{
 }
 
 .next_button{
-	width: 40%;
+	width: 28%;
 	font-size: 24px;
 	color: white;
 	background-color: #CA8D55;
 	border: 0px;
 	border-bottom: 2px dashed #5A2828;
-	padding:1px 40px;
+	padding:1px 30px;
 	border-radius: 10% / 60%;
     margin-left: 30%;
     cursor:pointer;
@@ -198,17 +198,32 @@ label{
 .logIn:link{
     color:none;
 }
-
-.input-container.success input {
-  border-color: #09c372;
+.input-control{
+  display: flex;
+  flex-direction: column;
+}
+.input-control input{
+  border: 2px solid #f0f0ff;
+  border-radius: 4px;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
 }
 
-.input-container.error input {
-  border-color: #ff3860;
+.input-control input:focus{
+  outline: 0;
+}
+.input-control.success input {
+border-color:#09c372
+}
+.input-control.error input{
+  border-color:#ff3860
 }
 
-.input-container .error {
-  color: #ff3860;
-  font-size: 15px;
-  height: 13px;
+.input-control .error{
+  color:#ff3860;
+  font-size: 9px;
+height: 13px;
+
 }
