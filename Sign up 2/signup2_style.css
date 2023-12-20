@@ -89,18 +89,7 @@ body{
 	top:105%;
   transform: rotate(40deg);
 }
-/* .pethand7{
-	position: absolute;
-	right:90%;
-	bottom:70%;
-  transform: rotate(40deg);
-}
-.pethand8{
-	position: absolute;
-	left:80%;
-	bottom:75%;
-  transform: rotate(40deg);
-} */
+
 
 
 .bone2{
@@ -123,20 +112,6 @@ body{
 	left:95%;
 	top:90%;
 }
-/* .bone5{
-	position: absolute;
-	right:82%;
-	top:78%;
-}
-.bone8{
-	position: absolute;
-	left:75%;
-	bottom:78%;
-}  */
-
-
-
-
 
 
 
@@ -160,14 +135,6 @@ margin-left: -13em;
 }
 
 
-
-
-/* 
-
-justify-content: center;
-flex-direction: column;
-
- */
 
 .form0{
    
@@ -263,8 +230,7 @@ input:focus,input:valid{
 
 
  .img1 {
-    /* float: right;
-    margin-top: -20em; */
+  
     display: inline-block;
     display: flex;
     align-items:end;
@@ -275,9 +241,6 @@ input:focus,input:valid{
 }
 
 .img1 img[alt='dog']{
-    /* float: right;
-    margin-top: -22em;
-    margin-right: -34em; */
     position: absolute;
     right: 30px;
     top: 150px;
