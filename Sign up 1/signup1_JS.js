@@ -52,24 +52,22 @@ form.addEventListener('submit', e => {
 	validateInputs();
 });
 
-
-const setError = (element, message) => {
+function setError(element, errorMessage) {
   const inputControl = element.parentElement;
   const errorDisplay = inputControl.querySelector('.error');
-
-  errorDisplay.innerText = message;
+ 
+  if (errorDisplay) {
+     errorDisplay.textContent = errorMessage;
+  } else {
+     const newError = document.createElement('p');
+     newError.className = 'error';
+     newError.textContent = errorMessage;
+     inputControl.appendChild(newError);
+  }
+ 
+  inputControl.classList.remove('success');
   inputControl.classList.add('error');
-  inputControl.classlist.remove('success');
-}
-
-const setSuccess = element =>{
-const inputControl = element.parentElement;
-const errorDisplay = inputControl.querySelector('.error');
-
-errorDisplay.innerText = '';
-inputControl.classList.add('success');
-inputControl.classList.remove('error');
-};
+ }
 
 const isValidEmail = email => {
   const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
