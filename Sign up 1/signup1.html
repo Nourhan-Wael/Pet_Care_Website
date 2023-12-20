@@ -60,15 +60,20 @@
 			<br>
 			<p id="p2">Step 1 of 2</a></p>
 		
-			<label for="username">Username</label><br>
+			<label for="username">UserName</label><br>
 			<input class="input_container" type="username" id="username" placeholder="Enter your Username"><br>
 			
-			<label for="pass">Password</label><br>
-			<input class="input_container" type="password" id="pass" placeholder="Enter your Password"><br>
-
-			<label for="email">Email</label><br>
-			<input class="input_container" type="email" id="email" placeholder="Enter your Email"><br>
-			</form>
+			<div class="input-container">
+				<label for="pass">Password</label><br>
+				<input class="input_container" type="password" id="pass" placeholder="Enter your Password"><br>
+				<div class="error"></div>
+			</div>	
+			<div class="input-container">
+				<label for="email">Email</label><br>
+				<input class="input_container" type="email" id="email" placeholder="Enter your Email"><br>
+				<div class="error"></div>
+			</div>
+		</form>
 			<br>
 			<div class="logIn">
 				<span>Don't Have Any Account ?</span>

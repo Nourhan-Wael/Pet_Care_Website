@@ -4,6 +4,8 @@ $('#header').load('../Header/header.html');
 // load footer
 $('#footer').load('../Footer/footer.html');
 
+
+// animation
 var photos = document.getElementsByClassName("photo");
 var currentIndex = 0;
 

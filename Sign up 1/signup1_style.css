@@ -198,3 +198,17 @@ label{
 .logIn:link{
     color:none;
 }
+
+.input-container.success input {
+  border-color: #09c372;
+}
+
+.input-container.error input {
+  border-color: #ff3860;
+}
+
+.input-container .error {
+  color: #ff3860;
+  font-size: 15px;
+  height: 13px;
+}
