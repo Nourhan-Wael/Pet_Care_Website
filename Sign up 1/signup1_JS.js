@@ -103,7 +103,7 @@ const validateInputs = () => {
     passTrue = 1 ;
     setSuccess(password);
   }
-  
+
   if(emaliValue === ''){
     setError(email, 'Email is required');
   }else if(!isValidEmail(emaliValue)){
@@ -112,8 +112,6 @@ const validateInputs = () => {
 	  emailTrue = 1 ;
     	setSuccess(email);
   }
-  
-
 
 };
 }
