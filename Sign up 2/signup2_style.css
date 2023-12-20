@@ -207,7 +207,7 @@ input:focus,input:valid{
     box-shadow: none;
     border-radius: 30px;
 }
-/* .submit{
+ .submit{
     background: #FF8D4Ca0;
     height: 50px;
     border: 2px solid rgba(255,255,255,0.65);
@@ -229,14 +229,14 @@ input:focus,input:valid{
     0 2px 30px 0 rgba(0,0,0,0.2);
 }
 
-.submit a{
+/* .submit a{
   text-decoration: none;
   color: #000;
   font-weight: bold;
-} */
+}  */
 
 
-.btnn{
+/* .btnn{
   background: #FF8D4Ca0;
     height: 48px;
     border: 2px solid rgba(255,255,255,0.65);
@@ -257,8 +257,8 @@ input:focus,input:valid{
   text-decoration: none;
   color: #000;
   font-size: 1.2em;
-  /* font-weight: bold; */
-}
+
+} */
 
 
 
