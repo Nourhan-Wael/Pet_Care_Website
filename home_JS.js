@@ -28,38 +28,44 @@ setInterval(function(){
 	}
 },2000);
 
+
+
 // animation shape
-var photos = document.getElementsByClassName("photo");
-var currentIndex = 0;
+
+var leg1=document.getElementById("photo1");
+var bone1=document.getElementById("photo2");
+var leg2=document.getElementById("photo3");
+var bone2=document.getElementById("photo4");
+var leg3=document.getElementById("photo5");
+var bone3=document.getElementById("photo6");
+var leg4=document.getElementById("photo7");
+var bone4=document.getElementById("photo8");
+var counter=0
 
 function showNextPhoto() {
-  photos[currentIndex].classList.remove("active");
-  currentIndex = (currentIndex + 1) % photos.length;
-  photos[currentIndex].classList.add("active");
+	if(counter ==0)
+	{
+		bone1.style.display="none";
+		bone2.style.display="none";
+		bone3.style.display="none";
+		bone4.style.display="none";
+		leg1.style.display="block";
+		leg2.style.display="block";
+		leg3.style.display="block";
+		leg4.style.display="block";
+		counter=1;
+	}
+	else{
+		bone1.style.display="block";
+		bone2.style.display="block";
+		bone3.style.display="block";
+		bone4.style.display="block";
+		leg1.style.display="none";
+		leg2.style.display="none";
+		leg3.style.display="none";
+		leg4.style.display="none";
+		counter=0
+	}
 }
-
-setInterval(showNextPhoto, 1000); // Change photo every 2 seconds (adjust as needed)
-
-
-
-var photos2 = document.getElementsByClassName("photo2");
-var currentIndex2 = 0;
-
-function showNextPhoto2() {
-  photos2[currentIndex2].classList.remove("active");
-  currentIndex2 = (currentIndex2 + 1) % photos2.length;
-  photos2[currentIndex2].classList.add("active");
-}
-
-setInterval(showNextPhoto2, 1000); // Change photo every 2 seconds (adjust as needed)
-
-var photos3 = document.getElementsByClassName("photo3");
-var currentIndex3 = 0;
-
-function showNextPhoto3() {
-  photos3[currentIndex3].classList.remove("active");
-  currentIndex3 = (currentIndex3 + 1) % photos3.length;
-  photos3[currentIndex3].classList.add("active");
-}
-
-setInterval(showNextPhoto3, 1000); // Change photo every 2 seconds (adjust as needed)
+      
+setInterval(showNextPhoto, 1000);

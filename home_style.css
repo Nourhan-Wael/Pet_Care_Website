@@ -1,20 +1,24 @@
-*{
+* {
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Akshar';
 }
-body{
+
+body {
 	background-color: #FFEED9;
 }
-article{
+
+article {
 	width: 30%;
 	margin-left: 130px;
 }
-.slideshow{
-	float:right;
+
+.slideshow {
+	float: right;
 
 }
-.slideshow img{
+
+.slideshow img {
 	position: absolute;
 	/* top: 100px;
 	right: 360px; */
@@ -23,42 +27,47 @@ article{
 	width: 37%;
 
 }
-.slideshow img[alt="img2"]{
+
+.slideshow img[alt="img2"] {
 	position: absolute;
 	right: 0px;
-	top:150px;
+	top: 150px;
 }
-.intro article>button{
+
+.intro article>button {
 	color: white;
 	font-size: 24px;
 	background-color: #FF8D4C;
 	border: 0px;
 	border-bottom: 2px dashed #5A2828;
-	padding:10px 15px;
+	padding: 10px 15px;
 	border-radius: 20% /60%;
 	margin: 40px 0 30px 50px;
 }
-.intro article>button:hover{
+
+.intro article>button:hover {
 	background-color: #CF550F;
 }
-.intro article .title{
-	font-size : 64px;
-	color :#5A2828;
+
+.intro article .title {
+	font-size: 64px;
+	color: #5A2828;
 	text-transform: uppercase;
 	margin-bottom: 0px;
 }
 
-.intro p{
-	font-size : 24px;
-	color :#CA8D55;
+.intro p {
+	font-size: 24px;
+	color: #CA8D55;
 }
 
-.post{
-	font-size : 36px;
-	color :#5A2828;
+.post {
+	font-size: 36px;
+	color: #5A2828;
 	margin: 15px 0 30px 100px;
 }
-.post button{
+
+.post button {
 	width: 120px;
 	font-size: 24px;
 	display: block;
@@ -66,195 +75,227 @@ article{
 	background-color: #FF8D4C;
 	border: 0px;
 	border-bottom: 2px dashed #5A2828;
-	padding:1px 40px;
+	padding: 1px 40px;
 	border-radius: 20% /50%;
 }
-.post button:hover{
+
+.post button:hover {
 	background-color: #CF550F;
 }
 
 
 /* ALL IN ONE */
-.allInOne{
+.allInOne {
 	color: #5A2828;
-	font-size : 36px;
+	font-size: 36px;
 	position: relative;
 }
-.word{
+
+.word {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 50px;
 	margin-top: 100px;
 }
-.scrollImages{
+
+.scrollImages {
 	display: flex;
-	overflow:auto;
+	overflow: auto;
 	white-space: nowrap;
 }
+
 /* to make the horizontal scroll invisible */
-::-webkit-scrollbar{
+::-webkit-scrollbar {
 	display: none;
 }
-.scrollImages .border{
+
+.scrollImages .border {
 	border: 3px dashed #FF8D4C;
 	border-radius: 54px;
-	width : 254px;
-	Height : 254px;
+	width: 254px;
+	Height: 254px;
 	transform: rotate(70deg);
 	position: relative;
 	z-index: -1;
-	bottom:60px;
+	bottom: 60px;
 }
-.scrollImages button{
-	font-size : 30px;
+
+.scrollImages button {
+	font-size: 30px;
 	color: white;
-	width : 253px;
-	Height : 60px;
+	width: 253px;
+	Height: 60px;
 	border: 0;
 	position: relative;
 	top: 200px;
 	left: 1px;
 	border-radius: 0px 0px 54px 54px;
-	background-color : #FF8D4C;
+	background-color: #FF8D4C;
 }
-.scrollImages button:hover{
+
+.scrollImages button:hover {
 	background-color: #CF550F;
 }
-.scrollImages .card{
+
+.scrollImages .card {
 	height: 300px;
 	margin: 20px 50px 0px 50px;
 }
-.scrollImages .image{
-	width : 254px;
-	Height : 261px;
+
+.scrollImages .image {
+	width: 254px;
+	Height: 261px;
 	background-repeat: no-repeat;
-	
+
 }
-.scrollImages .img1{
+
+.scrollImages .img1 {
 	background-image: url("./images/Home page/all in one/health.svg");
 }
-.scrollImages .img2{
+
+.scrollImages .img2 {
 	background-image: url("./images/Home page/all in one/All needs.svg");
 }
-.scrollImages .img3{
+
+.scrollImages .img3 {
 	background-image: url("./images/Home page/all in one/pet walking.svg");
 }
-.scrollImages .img4{
+
+.scrollImages .img4 {
 	background-image: url("./images/Home page/all in one/pet sitter.svg");
 }
-.scrollImages .img5{
+
+.scrollImages .img5 {
 	background-image: url("./images/Home page/all in one/adopt.svg");
 }
-.scrollImages .img6{
+
+.scrollImages .img6 {
 	background-image: url("./images/Home page/all in one/find my pet.svg");
 }
 
 
 /* second slideshow */
-.allInOne p{
-	font-size : 36px;
-	color :#5A2828;
+.allInOne p {
+	font-size: 36px;
+	color: #5A2828;
 	width: 65%;
 	margin-left: 18%;
 	margin-top: 40px;
 	margin-bottom: 70px;
 	text-align: center;
 }
-.allInOne .bigcard{
+
+.allInOne .bigcard {
 	width: 95%;
 	margin-left: 50px;
+	
 }
-.allInOne .bigcard img{
+
+.allInOne .bigcard img {
 	width: 100%;
+	height: 480px;
 }
-.allInOne .bigcard .border{
+
+.allInOne .bigcard .border {
 	border: 3px dashed #5A2828;
 	border-radius: 54px;
-	width : 90%;
-	Height : 380px;
+	width: 90%;
+	Height: 380px;
 	transform: rotate(10deg);
 	position: absolute;
 	z-index: -1;
-	top:740px;
+	top: 740px;
 	right: 50px;
 }
 
 /* our Services section */
 
-.ourServices{
+.ourServices {
 	color: #5A2828;
-	font-size : 36px;
+	font-size: 36px;
 	position: relative;
 	margin-bottom: 0px;
 }
-.ourServices .word img{
+
+.ourServices .word img {
 	position: absolute;
 	top: 12px
 }
-.ourServices .buttons{
+
+.ourServices .buttons {
 	display: flex;
 	justify-content: space-evenly;
 	margin-bottom: 80px;
 }
-.ourServices .card{
-	font-size : 30px;
+
+.ourServices .card {
+	font-size: 30px;
 	font-weight: bold;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 }
-.ourServices .card a{
+
+.ourServices .card a {
 	text-decoration: none;
-	
+
 }
-.ourServices .card button{
+
+.ourServices .card button {
 	width: 200px;
 	font-size: 24px;
 	color: white;
 	background-color: #FF8D4C;
 	border: 0px;
 	border-bottom: 2px dashed #5A2828;
-	padding:10px 15px;
+	padding: 10px 15px;
 	border-radius: 20% /60%;
-	margin-top: 60px ;
-	
+	margin-top: 60px;
+
 }
-.ourServices .card button:hover{
+
+.ourServices .card button:hover {
 	background-color: #CF550F;
 }
-.ourServices .hr{
+
+.ourServices .hr {
 	border-bottom: 2px dashed #5A2828;
 }
 
 
 /* ABOUT US */
 
-.aboutus{
+.aboutus {
 	color: #5A2828;
-	font-size : 36px;
+	font-size: 36px;
 	position: relative;
 	margin-bottom: 50px;
 	text-align: center;
 }
-.aboutus .word{
+
+.aboutus .word {
 	margin-top: 50px;
 	margin-bottom: 15px;
 }
-.aboutus .word img{
+
+.aboutus .word img {
 	position: absolute;
 	top: 12px
 }
-.aboutus p{
+
+.aboutus p {
 	color: #CA8D55;
-	font-size : 24px;
+	font-size: 24px;
 	width: 56.5%;
 	margin-left: 20%;
 }
-.aboutus .image{
+
+.aboutus .image {
 	width: 100%;
 }
-.aboutus .image img{
+
+.aboutus .image img {
 	position: absolute;
 	/* top: 250px; */
 	bottom: -21%;
@@ -262,141 +303,109 @@ article{
 	left: 15%;
 	width: 74%;
 }
-.aboutus .image .hr{
+
+.aboutus .image .hr {
 	border-bottom: 2px dashed #5A2828;
 	/* margin-top: 230px; */
 	margin-top: 16%;
 }
 
-.feedback{
+.feedback {
 	color: #5A2828;
-	font-size : 36px;
+	font-size: 36px;
 	margin-bottom: 100px;
 	width: 450px;
 	margin: auto;
 }
-.feedback .word p{
+
+.feedback .word p {
 	color: #CA8D55;
-	font-size : 24px;
-	margin-top:15px;
+	font-size: 24px;
+	margin-top: 15px;
 }
 
-.feedback .image{
+.feedback .image {
 	display: flex;
 	justify-content: space-around;
 	height: 65px;
 	width: 100%;
 }
-.feedback .image img{
+
+.feedback .image img {
 	margin-right: 50px;
 	margin-left: 50px;
 	width: 55px;
 }
 
-.feedback .image img:hover{
+.feedback .image img:hover {
 	width: 70px;
 
 }
 
 /* Shapes Animation */
 
-
+/* animation in intro section  */
 .shapes-animation {
 	position: absolute;
 	left: 2%;
 	top: 17%;
 
-  }
-  .shapes-animation2 {
+}
+.shapes-animation2 {
 	position: absolute;
 	left: 72%;
-	top: 25%;
+	top: 17%;
 
-  }
-  
-  
-  .photo {
+}
+.shapes-collection1 {
 	position: absolute;
-	top: 0;
-	left: 0;
-	opacity: 0;
-	transition: opacity 1s;
-  }
-  
-  .photo.active {
-	opacity: 1;
-  }
-
-
-  
-  .photo2 {
+	left: 5%;
+	top: 80%;
+}
+.bone {
 	position: absolute;
-	top: 0;
-	left: 0;
-	opacity: 0;
-	transition: opacity 1s;
-  }
-  
-  .photo2.active {
-	opacity: 1;
-  }
-
-  .shapes-animation3 {
-	position: absolute;
-	left: 85%;
-	top: 3%;
-
-  }
-  
-  
-  .photo3 {
-	position: absolute;
-	top: 0;
-	left: 0;
-	opacity: 0;
-	transition: opacity 1s;
-  }
-  
-  .photo3.active {
-	opacity: 1;
-  }
-
-  .shapes-collection{
-	position: absolute;
-	left:5%;
-	top:80%;
+	left: 60%;
+	top: 90%;
 }
 
-.bone{
+.pethand {
 	position: absolute;
-	left:60%;
-	top:90%;
+	left: 40%;
+	top: 22%;
+}
+#photo2,#photo4,#photo6 {
+	display: none;
+}
+/* animation in ALL IN ONE section  */
+.allInOneAnimation{
+	position: absolute;
+	left: 5%;
+	top: 40%;
 }
 
-.pethand{
+/* animation in Our Services section */
+.shapes-collection2 {
 	position: absolute;
-	left:40%;
-	top:22%;
+	right: 7%;
+	top: -7%;
 }
 
-.pet-hand3{
+
+/* animation in about us section */
+.shapes-animation3 { 
 	position: absolute;
-	left:5%;
-	top:175%;
+	right: 10%;
+	top: -5%;
+	
 }
-.bone2{
+.shapes-collection3 {
 	position: absolute;
-	left:90%;
-	top:180%;
-}
-.shapes-collection2{
-	position: absolute;
-	left:5%;
-	top:30%;
+	left: 5%;
+	top: 30%;
 }
 
 @media screen {
-	.aboutus .image{
+	.aboutus .image {
 		width: 100%;
 	}
 }
