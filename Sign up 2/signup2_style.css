@@ -291,6 +291,27 @@ input:focus,input:valid{
     margin-top: 1em;
 }
 
+.input input:focus {
+  outline: 0;
+}
+
+.input-field.success input {
+  border-color: #09c372;
+}
+
+.input-field.error input {
+  border-color: #ff3860;
+}
+
+.input-field .error {
+  color: #ff3860;
+  font-size: 15px;
+  height: 13px;
+}
+#f{
+  margin-top: 15px;
+}
+
 
 
 

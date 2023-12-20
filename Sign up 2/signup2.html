@@ -61,15 +61,17 @@
  <div class="form0">
 	<form>
 		<div class="input-field">
-	<label style="font-size: 20px; color: #5A2828;"> Country</label><br>
+	<label for="username" style="font-size: 20px; color: #5A2828;"> Country</label><br>
 	
-		<input type="text" name="country" placeholder="Enter your country">
-		</div>
+		<input type="text" id="username" name="username" placeholder="Enter your country" >
+		<div class="error"></div>
+	</div>
 
 		<div class="input-field">
-	<label style="font-size: 20px; color: #5A2828;">Location</label><br>
+	<label for="username2" style="font-size: 20px; color: #5A2828;">Location</label><br>
 	
-		<input type="text" name="location" placeholder="turn on your GPS">
+		<input type="text" id="username2" name="username2" placeholder="turn on your GPS" >
+		<div class="error"></div>
 	</div>
 
 		
@@ -78,7 +80,7 @@
 			<a href="../Login/login.html" style="color: #5A2828; text-decoration:none ;">LOG IN </a>		   
 		</p>
 		<div class="input-field">
-			<input  class="submit" style="border-bottom: #000 dashed;" type="submit" value="sign up"><a href="#"></a></input> </div>
+			<input  class="submit" style="border-bottom: #000 dashed;" type="submit" value="sign up"><a href="../index.html"></a></input> </div>
 		
 			<div class="img3">
 				<img src="../images/Sign up 2/step line.svg">
@@ -86,8 +88,14 @@
 				<p class="num1" style="color: #fff;" >1</p>
 				<p class="num2" style="color: #FF8D4Ca0;" >2</p>
 				</div>
+
+
+				
 		</form>
-		
+		<!-- <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+			Name: <input type="text" name="fname">
+			<input type="submit" value="Submit">
+			</form> -->
 	</div>
 		
 		
@@ -106,7 +114,6 @@
 
 <div id="footer"></div>
 <script src="signup2_JS.js"></script>
-
 
 </body>
 </html>
