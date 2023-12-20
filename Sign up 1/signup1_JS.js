@@ -47,9 +47,9 @@ const username = document.getElementById('username');
 const email = document.getElementById('email');
 const password = document.getElementById('pass');
 
-form.addEventListener('submit', e=>{
-e.preventDefault();
-validateInputs();
+form.addEventListener('submit', e=> {
+	e.preventDefault();
+	validateInputs();
 });
 
 
@@ -80,7 +80,7 @@ const isValidEmail = email => {
 const validateInputs = () => {
   // Direct to next signup page
   if(userTrue==1 && emailTrue == 1 && passTrue == 1){
-    window.location.href = "../../Sign up 2/signup2.html";
+    window.location.href = "../Sign up 2/signup2.html";
     }
 
   const usernameValue = username.value.trim();

@@ -163,24 +163,98 @@ body{
 	width: 3%;
 	padding: 1%;
 }
-.v{
+.v1{
 	display: flex;
 	
 	margin-bottom: 1.5%;
 	
 }
-.name{
+.v2{
+	display: flex;
+	
+	margin-bottom: 1.5%;
+	
+}
+.v3{
+	display: flex;
+	
+	margin-bottom: 1.5%;
+	
+}
+.v4{
+	display: flex;
+	
+	margin-bottom: 1.5%;
+	
+}
+.v5{
+	display: flex;
+	
+	margin-bottom: 1.5%;
+	
+}
+
+.name1{
 	font-size: 24px;
 	color: #5A2828 ; 
 	
 }
-.lorem{
+.lorem1{
 
 	padding: 2% 0px 0% 1%;
 	margin-left: -10%;
 	color: #5A2828 ; 
 
 } 
+.name2{
+	font-size: 24px;
+	color: #5A2828 ; 
+	
+}
+.lorem2{
+
+	padding: 2% 0px 0% 1%;
+	margin-left: -10%;
+	color: #5A2828 ; 
+
+} 
+.name3{
+	font-size: 24px;
+	color: #5A2828 ; 
+	
+}
+.lorem3{
+
+	padding: 2% 0px 0% 1%;
+	margin-left: -10%;
+	color: #5A2828 ; 
+
+} 
+.name4{
+	font-size: 24px;
+	color: #5A2828 ; 
+	
+}
+.lorem4{
+
+	padding: 2% 0px 0% 1%;
+	margin-left: -10%;
+	color: #5A2828 ; 
+
+} 
+.name5{
+	font-size: 24px;
+	color: #5A2828 ; 
+	
+}
+.lorem5{
+
+	padding: 2% 0px 0% 1%;
+	margin-left: -10%;
+	color: #5A2828 ; 
+
+} 
+
   
 
 
