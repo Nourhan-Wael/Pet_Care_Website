@@ -86,7 +86,7 @@ if(usernameTrue == 1 && username2True == 1){
     
     if(usernameValue === '') {
       setError(username2, 'Email is required');
-    } else if (!isValidText(usernameValue)) {
+    } else if (!isValidText(usernamelValue)) {
       setError(username, 'Provide a valid email address');
     } else {
       setSuccess(username);
