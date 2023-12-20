@@ -93,6 +93,16 @@ const validateInputs = () => {
 	  userTrue = 1 ;
 	  setSuccess(username);
   }
+
+  if(passwordVlue === ''){
+    setError(password, 'Password is requied');
+  }else if(passwordVlue.length < 8){
+    setError(password, 'Password must be at least 8 character');
+  }else{
+  
+    passTrue = 1 ;
+    setSuccess(password);
+  }
   
   if(emaliValue === ''){
     setError(email, 'Email is required');
@@ -103,15 +113,7 @@ const validateInputs = () => {
     	setSuccess(email);
   }
   
-  if(passwordVlue === ''){
-    setError(password, 'Password is requied');
-  }else if(passwordVlue.length < 8){
-    setError(password, 'Password must be at least 8 character');
-  }else{
-    
-    passTrue = 1 ;
-    setSuccess(password);
-  }
+
 
 };
 }
