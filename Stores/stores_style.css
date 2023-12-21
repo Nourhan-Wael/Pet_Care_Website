@@ -5,6 +5,7 @@ body{
 .p1{
 	font-size: 40px;
 	margin-top: 10%;
+	color: #5A2828;
 }
 .p2{
 	color: #CA8D55;
@@ -29,11 +30,11 @@ body{
 	border-radius: 0% 20% 20% 0%;
 	width: 110%;
 }
-.check{
+.check1{
 	margin-right: 87%;
 }
 
-/* The container */
+/* The checkboxs customize in lable */
 .ch {
 	display: block;
 	position: relative;
@@ -122,12 +123,8 @@ body{
 	margin-top: -10px;
 	transform: rotate(45deg);
 	border-radius: 0px 0 0px 50px;
-	transition: all ease-in-out 0.1s;
 }
-/* .Arrow:hover::before{
-	border-radius: 0px 0 50px 0;
-	background-color: #824d1c;
-} */
+
 .dropdown {
 	display:inline-block;
 	position: relative;
@@ -166,7 +163,6 @@ body{
 /* -------------------------------------Products/Bootstrap----------------------- */
 #T2{
 	width:fit-content;
-	margin-left: 10%;
 }
 .img-ShoppingBasket{
 	position: absolute;
@@ -196,16 +192,15 @@ body{
 	width: fit-content;
 }
 .line{
-	margin-left: 35%;
 	margin-top: -8%;
 }
 .PetP{
 	font-size: 40px;
-	padding-left: 40%;
+	color: #5A2828;
 }
 .row{
 	width: 85%;
-	margin-left: 7%;
+	margin-left: 10%;
 
 }
 .card-img{
@@ -215,6 +210,9 @@ body{
 	background-color:rgba(239, 141, 22, 0.661);
 	border-radius: 50px;
 	margin-bottom: 55%;
+}
+.card-body{
+	margin-top: -20px;
 }
 .price{
 	background-color: #e57812;
@@ -234,22 +232,16 @@ body{
 	text-align: center;
 	border-radius: 50px;
 	justify-content: center;
-	align-items:center ;
-	margin-top: -8%;
-	margin-left: 23%;
+	margin-left: 13%;
 	border:#5A2828;
 	border-style: none none dashed none;
 	border-width: 4px;
 }
-.img2 .btn{
-	margin-top: 16%;
-}
 
-.card-text1{
+
+.card-text{
 	color: #ad733c;
-	font-size: 14px;
-	text-align: center;
-	margin-top: 2%;
+	font-size: 13px;
 }
 .img1 .card-img{
 	margin-left: 23%;
