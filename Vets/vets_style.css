@@ -9,9 +9,7 @@ body{
 	font-size: 36px;
 	color: #5A2828;
 	position: relative; 
-
 	margin-left: 25%;
-	/* text-align: center; */
 	margin-top: 2%;
 	margin-bottom: -3%;
 	
@@ -21,7 +19,6 @@ body{
 	color: #5A2828;
 	position: relative; 
 	margin-left: 15%;
-	/* text-align: center; */
 	margin-top: 2%;
 }
  .brief{
@@ -52,20 +49,15 @@ body{
 .box{
 	display: flex; 
 	padding-top:1%;
-	color: #5A2828 ; 
+	color :#5A2828;
+
+	
 }
 
 
-.address{
-	color:  #CA8D55 ;
-	font-size: 30px;
-}
-.boxes{
+
+.locationsection{
 	display: flex;
-}
-.location{
-	display: flex;
-	justify-content: space-between;
 	padding-left: 5%;
 	
 }
@@ -82,19 +74,15 @@ body{
 }
 
 
-
 /* The container */
 .choises {
-	display: block;
+
 	position: relative;
 	padding-left: 3%;
 	padding-right: 3%;
 	cursor: pointer;
 	font-size: 22px;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+	
   }
   
   /* Hide the browser's default checkbox */
@@ -113,11 +101,6 @@ body{
 	left: 10px;
 	height: 25px;
 	width: 25px;
-	background-color: #f9b289;
-  }
-  
-  /* On mouse-over, add a grey background color */
-  .choises:hover input ~ .checkmark {
 	background-color: #f9b289;
   }
   
@@ -146,12 +129,8 @@ body{
 	height: 10px;
 	border: solid #5A2828;
 	border-width: 0 3px 3px 0;
-	-webkit-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
   }
-
-
 
 
 .vets{
@@ -159,10 +138,7 @@ body{
 	flex-direction: column;
 	padding-left: 15%;
 }
-.vet{
-	width: 3%;
-	padding: 1%;
-}
+
 .v1{
 	display: flex;
 	
@@ -194,68 +170,18 @@ body{
 	
 }
 
-.name1{
+.name{
 	font-size: 24px;
 	color: #5A2828 ; 
 	
 }
-.lorem1{
+.lorem{
 
 	padding: 2% 0px 0% 1%;
 	margin-left: -10%;
 	color: #5A2828 ; 
 
 } 
-.name2{
-	font-size: 24px;
-	color: #5A2828 ; 
-	
-}
-.lorem2{
-
-	padding: 2% 0px 0% 1%;
-	margin-left: -10%;
-	color: #5A2828 ; 
-
-} 
-.name3{
-	font-size: 24px;
-	color: #5A2828 ; 
-	
-}
-.lorem3{
-
-	padding: 2% 0px 0% 1%;
-	margin-left: -10%;
-	color: #5A2828 ; 
-
-} 
-.name4{
-	font-size: 24px;
-	color: #5A2828 ; 
-	
-}
-.lorem4{
-
-	padding: 2% 0px 0% 1%;
-	margin-left: -10%;
-	color: #5A2828 ; 
-
-} 
-.name5{
-	font-size: 24px;
-	color: #5A2828 ; 
-	
-}
-.lorem5{
-
-	padding: 2% 0px 0% 1%;
-	margin-left: -10%;
-	color: #5A2828 ; 
-
-} 
-
-  
 
 
 .bubble{
@@ -270,7 +196,7 @@ body{
 	position: absolute;
 	width: 630px;
 	height: 630px; 
-	overflow: hidden;
+	/* overflow: hidden; */
 	left:52%;
 	top :15%;
   }
