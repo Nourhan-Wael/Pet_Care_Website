@@ -404,8 +404,15 @@ article {
 	top: 30%;
 }
 
-@media screen {
+@media screen and (max-width: 450px){
 	.aboutus .image {
 		width: 100%;
+	}
+
+	/* our servies */
+
+	.ourServices .buttons {
+		flex-direction: column;
+		
 	}
 }
