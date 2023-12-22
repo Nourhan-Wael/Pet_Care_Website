@@ -316,6 +316,7 @@ article {
 	margin-top: 16%;
 }
 
+/* Feedback */
 .feedback {
 	color: #5A2828;
 	font-size: 36px;
@@ -435,16 +436,16 @@ article {
 	}
 
 	.slideshow img[alt="img2"] {
-		top: 25%;
-		left: 45%;
+		top: 33%;
+		left: 40%;
 		width: 60%;
 	}
 
 
 	article {
 		text-align: center;
-		width: 45%;
-		margin-left: 4%;
+		width: 50%;
+		margin-left: 1%;
 		/* margin-top: 350px; */
 	}
 
@@ -462,14 +463,13 @@ article {
 
 	.intro p {
 		font-size: 14px;
-		color: #CA8D55;
 	}
 
 	.intro article .responsive {
 		position: absolute;
-		top: 85%;
-		right: 5%;
-		width: 40%;
+		top: 90%;
+		right: 1%;
+		width: 45%;
 		font-size: 17px;
 	}
 
@@ -477,7 +477,7 @@ article {
 		text-align: center;
 		font-size: 23px;
 		position: absolute;
-		top: 102%;
+		top: 107%;
 		right: 10%;
 	}
 
@@ -520,7 +520,7 @@ article {
 
 	/* second slideshow */
 	.allInOne p {
-		font-size: 20px;
+		font-size: 18px;
 		width: 100%;
 		margin-left: 0%;
 		margin-top: 20px;
@@ -539,7 +539,7 @@ article {
 	.allInOne .bigcard .border {
 		width: 90%;
 		Height: 150px;
-		top: 610px;
+		top: 605px;
 		right: 5%;
 	}
 
@@ -547,17 +547,40 @@ article {
 
 
 
+
+	/* our servies */
+	.ourServices {
+		/* width: 90%; */
+
+	}
+
+	.ourServices .buttons {
+		display:inline-block;
+		/* width: 50%; */
+		/* flex-direction: column; */
+		/* overflow: hidden; */
+		white-space:nowrap;
+
+	}
+
+
 	/* About us */
 	.aboutus .image {
 		width: 100%;
 	}
 
-	/* our servies */
 
-	.ourServices .buttons {
-		flex-direction: column;
-
+	/* Feedback */
+	.feedback {
+		width: 100%;
 	}
+
+
+	.feedback .image img {
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
 
 
 
@@ -579,7 +602,7 @@ article {
 	.shapes-collection1 {
 		width: 50px;
 		left: 80%;
-		top: 125%;
+		top: 130%;
 	}
 
 	.bone,
@@ -595,9 +618,7 @@ article {
 
 	/* animation in Our Services section */
 	.shapes-collection2 {
-		position: absolute;
-		right: 7%;
-		top: -7%;
+		display: none;
 	}
 
 
