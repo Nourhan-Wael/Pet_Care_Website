@@ -102,13 +102,13 @@ body{
 .left{
     position: absolute;
     top:35px;
-    left: 280px;
+    left: 258px;
     color:#eba564;
 }
 .right{
     position: absolute;
     top:35px;
-    right: 280px;
+    right: 39%;
     color:white;
 }
 #p1{
@@ -147,6 +147,7 @@ label{
 	font-size: 20px;
 	color: #5A2828;
 }
+
 .input_container{
     background-color: #FF8D4Ca0;
     border: none;
