@@ -12,7 +12,8 @@
 		<div class="care">
 			<div class="link">
 				<a href="#" onmouseover="showimage()" onmouseleave="hideimage()">Care</a>
-				<img id="click" src="../images/Home page/Polygon.svg" onclick="displaybox()" ondblclick="hidebox()">
+				<img id="click" src="../images/Home page/Polygon.svg" onclick="displaybox()"
+					ondblclick="hidebox()">
 			</div>
 			<img class="hide" src="../images/line header.svg">
 			<div id="box">
@@ -24,7 +25,7 @@
 			<a href="../Vets/vets.html">Vets</a>
 			<img class="hide" src="../images/line header.svg">
 		</div>
-		
+
 	</nav>
 	<div class="register">
 		<a href="../Login/login.html"><button>Login</button></a>
@@ -34,33 +35,34 @@
 
 	<script>
 		// box appear
-		function displaybox(){
-			document.getElementById("box").style.display="inline-flex";
+		function displaybox() {
+			document.getElementById("box").style.display = "inline-flex";
 			// document.getElementById("click").style.display="inline-flex";
 		}
 		// box hide
-		function hidebox(){
-			document.getElementById("box").style.display="none";
+		function hidebox() {
+			document.getElementById("box").style.display = "none";
 			// document.getElementById("click").style.visibility="hidden"
 		}
 		// show image under care
-		function showimage(){
-			document.getElementsByClassName("hide")[2].style.display="block";
+		function showimage() {
+			document.getElementsByClassName("hide")[2].style.display = "block";
 		}
 		// hide image under care
-		function hideimage(){
-			document.getElementsByClassName("hide")[2].style.display="none";
+		function hideimage() {
+			document.getElementsByClassName("hide")[2].style.display = "none";
 		}
 
 	</script>
-	
+
 </header>
 <style>
-	*{
+	* {
 		/* color: #5A2828; */
 		font-family: 'Akshar', sans-serif;
 	}
-	header{	
+
+	header {
 		width: 100%;
 		font-family: 'Akshar', sans-serif;
 		font-size: 24px;
@@ -69,105 +71,163 @@
 		margin-top: 30px;
 		height: 50px;
 	}
-	header>img{
+
+	header>img {
 		margin-left: 50px;
 	}
-	header nav{
+
+	header nav {
 		width: 30%;
 		display: flex;
 		justify-content: space-between;
 		margin-top: 10px;
 	}
-	header nav div{
+
+	header nav div {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		width:calc(30%/4);
+		width: calc(30%/4);
 	}
-	header nav .hide{
-		display: none;	
+
+	header nav .hide {
+		display: none;
 	}
-	header a{
+
+	header a {
 		letter-spacing: 1px;
 		text-decoration: none;
 		color: #5A2828;
 	}
-	header .register button{
+
+	header .register button {
 		background-color: #FF8D4C;
 		border: 0px;
 		border-bottom: 2px dashed #5A2828;
-		padding:5px 30px;
+		padding: 5px 30px;
 		border-radius: 30% /60%;
 	}
 
-	header .register{
+	header .register {
 		margin-right: 50px;
 	}
-	header .register a{
+
+	header .register a {
 		margin-right: 40px;
 	}
-	header .register button{
+
+	header .register button {
 		color: white;
 		font-size: 18px;
 	}
 
-	header nav a:hover{
+	header nav a:hover {
 		color: #FF8D4C;
 		text-decoration: none;
 	}
-	header nav a:hover + .hide{
+
+	header nav a:hover+.hide {
 		display: block;
 	}
+
 	/* header nav .link a:hover  .hide{
 		display: block;
 	} */
 
-	header .register button:hover{
-	background-color: #CF550F;
+	header .register button:hover {
+		background-color: #CF550F;
 	}
-	header .register  a:hover{
+
+	header .register a:hover {
 		color: #FF8D4C;
 	}
 
 	/* box by javascript */
-	#box{
-		width : 148px;
-		height :134px; 
-		border-radius : 30px; 
+	#box {
+		width: 148px;
+		height: 134px;
+		border-radius: 30px;
 		background-color: #FF8D4C;
 		border: 0px;
 		border-right: 2px dashed #5A2828;
 		z-index: 1;
-		padding:20px 0px;
+		padding: 20px 0px;
 		display: none;
 	}
-	#box button{
-		width : 118px;
-		height : 25px;
+
+	#box button {
+		width: 118px;
+		height: 25px;
 		font-size: 16px;
 		color: #5A2828;
 		background-color: #FFC48E;
-		border-radius : 30px; 
+		border-radius: 30px;
 		border: 0px;
 		border-left: 3px solid #5A2828;
-		
+
 		/* margin-top: 20px; */
 		margin-bottom: 15px;
-		
+
 	}
-	#box button:hover{
+
+	#box button:hover {
 		color: white;
 	}
-	header .care .link{
+
+	header .care .link {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
 	}
-	header .care .link #click{
+
+	header .care .link #click {
 		/* width: 2px; */
 		height: 13px;
 		margin-left: 10px;
 		/* display: none; */
 	}
 
+	@media screen and (max-width: 450px) {
+		header {
+			font-size: 16px;
+			margin-top: 20px;
+			height: 65px;
+		}
+
+		header>img {
+			margin-left: 5px;
+			margin-right: 4%;
+			width: 17%;
+			margin-top: -25px;
+		}
+
+		header nav {
+			width: 50%;
+			justify-content: space-between;
+			margin-top: 25px;
+		}
+
+		header nav .hide {
+			width: 50px;
+		}
+
+		header .register {
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			width: 25%;
+			margin-right: 0px;
+		}
+
+		header .register button {
+			font-size: 16px;
+			padding: 5px 15px;
+		}
+
+		header .register a {
+			margin-right: 0px;
+			margin-bottom: 10px;
+		}
+
+	}
 </style>

@@ -152,26 +152,32 @@ article {
 
 .scrollImages .img1 {
 	background-image: url("./images/Home page/all in one/health.svg");
+	background-size: contain;
 }
 
 .scrollImages .img2 {
 	background-image: url("./images/Home page/all in one/All needs.svg");
+	background-size: contain;
 }
 
 .scrollImages .img3 {
 	background-image: url("./images/Home page/all in one/pet walking.svg");
+	background-size: contain;
 }
 
 .scrollImages .img4 {
 	background-image: url("./images/Home page/all in one/pet sitter.svg");
+	background-size: contain;
 }
 
 .scrollImages .img5 {
 	background-image: url("./images/Home page/all in one/adopt.svg");
+	background-size: contain;
 }
 
 .scrollImages .img6 {
 	background-image: url("./images/Home page/all in one/find my pet.svg");
+	background-size: contain;
 }
 
 
@@ -189,7 +195,7 @@ article {
 .allInOne .bigcard {
 	width: 95%;
 	margin-left: 50px;
-	
+
 }
 
 .allInOne .bigcard img {
@@ -351,17 +357,20 @@ article {
 	top: 17%;
 
 }
+
 .shapes-animation2 {
 	position: absolute;
 	left: 72%;
 	top: 17%;
 
 }
+
 .shapes-collection1 {
 	position: absolute;
 	left: 5%;
 	top: 80%;
 }
+
 .bone {
 	position: absolute;
 	left: 60%;
@@ -373,11 +382,15 @@ article {
 	left: 40%;
 	top: 22%;
 }
-#photo2,#photo4,#photo6 {
+
+#photo2,
+#photo4,
+#photo6 {
 	display: none;
 }
+
 /* animation in ALL IN ONE section  */
-.allInOneAnimation{
+.allInOneAnimation {
 	position: absolute;
 	left: 5%;
 	top: 40%;
@@ -392,19 +405,149 @@ article {
 
 
 /* animation in about us section */
-.shapes-animation3 { 
+.shapes-animation3 {
 	position: absolute;
 	right: 10%;
 	top: -5%;
-	
+
 }
+
 .shapes-collection3 {
 	position: absolute;
 	left: 5%;
 	top: 30%;
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px) {
+
+	/* intro part */
+	.slideshow {
+		float: none;
+		/* position: relative; */
+	}
+
+	.slideshow img {
+		/* position: relative; */
+		top: 80%;
+		left: -1%;
+		width: 60%;
+
+	}
+
+	.slideshow img[alt="img2"] {
+		top: 25%;
+		left: 45%;
+		width: 60%;
+	}
+
+
+	article {
+		text-align: center;
+		width: 45%;
+		margin-left: 4%;
+		/* margin-top: 350px; */
+	}
+
+
+	.intro article>button {
+		font-size: 18px;
+		margin: 20px 0 20px 10px;
+	}
+
+
+	.intro article .title {
+		font-size: 32px;
+		margin-bottom: 10px;
+	}
+
+	.intro p {
+		font-size: 14px;
+		color: #CA8D55;
+	}
+
+	.intro article .responsive {
+		position: absolute;
+		top: 85%;
+		right: 5%;
+		width: 40%;
+		font-size: 17px;
+	}
+
+	.post {
+		text-align: center;
+		font-size: 23px;
+		position: absolute;
+		top: 102%;
+		right: 10%;
+	}
+
+	.post button {
+		margin-top: 10px;
+	}
+
+
+
+
+	/* ALL IN ONE */
+	.allInOne {
+		margin-top: 400px;
+	}
+
+
+
+	.scrollImages .border {
+		width: 204px;
+		Height: 204px;
+	}
+
+	.scrollImages button {
+		width: 198px;
+		top: 150px;
+		left: 0px;
+	}
+
+	.scrollImages .card {
+		margin-right: 30px;
+		margin-left: 20px;
+	}
+
+	.scrollImages .image {
+		width: 204px;
+		Height: 204px;
+
+
+	}
+
+	/* second slideshow */
+	.allInOne p {
+		font-size: 20px;
+		width: 100%;
+		margin-left: 0%;
+		margin-top: 20px;
+	}
+
+	.allInOne .bigcard {
+		margin-left: 2%;
+
+	}
+
+	.allInOne .bigcard img {
+		width: 100%;
+		height: 155px;
+	}
+
+	.allInOne .bigcard .border {
+		width: 90%;
+		Height: 150px;
+		top: 610px;
+		right: 5%;
+	}
+
+
+
+
+
+	/* About us */
 	.aboutus .image {
 		width: 100%;
 	}
@@ -413,6 +556,62 @@ article {
 
 	.ourServices .buttons {
 		flex-direction: column;
-		
+
+	}
+
+
+
+	/* Shapes Animation */
+
+	/* animation in intro section  */
+	.shapes-animation img,
+	.shapes-animation2 img,
+	.allInOneAnimation img {
+		width: 50%;
+	}
+
+	.shapes-animation {
+		left: 5%;
+		top: 70%;
+	}
+
+
+	.shapes-collection1 {
+		width: 50px;
+		left: 80%;
+		top: 125%;
+	}
+
+	.bone,
+	.pethand {
+		display: none;
+	}
+
+
+	/* animation in ALL IN ONE section  */
+	.allInOneAnimation {
+		top: 48%;
+	}
+
+	/* animation in Our Services section */
+	.shapes-collection2 {
+		position: absolute;
+		right: 7%;
+		top: -7%;
+	}
+
+
+	/* animation in about us section */
+	.shapes-animation3 {
+		position: absolute;
+		right: 10%;
+		top: -5%;
+
+	}
+
+	.shapes-collection3 {
+		position: absolute;
+		left: 5%;
+		top: 30%;
 	}
 }
